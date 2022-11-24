@@ -1,0 +1,580 @@
+Uri: https://d1gv3eajsppg20.cloudfront.net/favicon.ico
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\favicon.ico
+Content Type: image/vnd.microsoft.icon
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/css/app.6515ea7f.css
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\css\app.6515ea7f.css
+Content Type: text/css
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/css/chunk-07c395ba.283ce610.css
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\css\chunk-07c395ba.283ce610.css
+Content Type: text/css
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/css/chunk-24d3d5bc.001181ba.css
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\css\chunk-24d3d5bc.001181ba.css
+Content Type: text/css
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/css/chunk-3fb618dd.d873c7d6.css
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\css\chunk-3fb618dd.d873c7d6.css
+Content Type: text/css
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/css/chunk-4988cdf4.7b1d2eae.css
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\css\chunk-4988cdf4.7b1d2eae.css
+Content Type: text/css
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/css/chunk-4e2d2b83.0310b230.css
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\css\chunk-4e2d2b83.0310b230.css
+Content Type: text/css
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/css/chunk-5d349833.65774c51.css
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\css\chunk-5d349833.65774c51.css
+Content Type: text/css
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/css/chunk-62674bde.4e77803c.css
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\css\chunk-62674bde.4e77803c.css
+Content Type: text/css
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/css/chunk-6e94d52e.e9c34039.css
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\css\chunk-6e94d52e.e9c34039.css
+Content Type: text/css
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/css/chunk-743acde3.11564da8.css
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\css\chunk-743acde3.11564da8.css
+Content Type: text/css
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/css/chunk-9aed6a76.9802169d.css
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\css\chunk-9aed6a76.9802169d.css
+Content Type: text/css
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/css/chunk-cf10b3cc.c319718f.css
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\css\chunk-cf10b3cc.c319718f.css
+Content Type: text/css
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/css/chunk-dfc84484.41b29949.css
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\css\chunk-dfc84484.41b29949.css
+Content Type: text/css
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/css/chunk-e22d6c9a.add5e228.css
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\css\chunk-e22d6c9a.add5e228.css
+Content Type: text/css
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/css/chunk-vendors.6df86358.css
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\css\chunk-vendors.6df86358.css
+Content Type: text/css
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/fonts/Alegreya-Black.07a9bb75.ttf
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\fonts\Alegreya-Black.07a9bb75.ttf
+Content Type: binary/octet-stream
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/fonts/Alegreya-Bold.52a9512b.ttf
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\fonts\Alegreya-Bold.52a9512b.ttf
+Content Type: binary/octet-stream
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/fonts/Alegreya-ExtraBold.a2cdca82.ttf
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\fonts\Alegreya-ExtraBold.a2cdca82.ttf
+Content Type: binary/octet-stream
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/fonts/Alegreya-Medium.b6c38435.ttf
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\fonts\Alegreya-Medium.b6c38435.ttf
+Content Type: binary/octet-stream
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/fonts/Alegreya-Regular.fb910991.ttf
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\fonts\Alegreya-Regular.fb910991.ttf
+Content Type: binary/octet-stream
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/fonts/DINPro-Bold.76948238.ttf
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\fonts\DINPro-Bold.76948238.ttf
+Content Type: binary/octet-stream
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/fonts/DINPro-Medium.6ea892b4.ttf
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\fonts\DINPro-Medium.6ea892b4.ttf
+Content Type: binary/octet-stream
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/fonts/DINPro-Regular.86fda987.otf
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\fonts\DINPro-Regular.86fda987.otf
+Content Type: binary/octet-stream
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/fonts/element-icons.abe71f7d.ttf
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\fonts\element-icons.abe71f7d.ttf
+Content Type: binary/octet-stream
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/fonts/element-icons.d9491be2.woff
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\fonts\element-icons.d9491be2.woff
+Content Type: binary/octet-stream
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/fonts/IBMPlexSans-Medium.74982386.otf
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\fonts\IBMPlexSans-Medium.74982386.otf
+Content Type: binary/octet-stream
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/fonts/IBMPlexSans-Regular.177a43ac.otf
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\fonts\IBMPlexSans-Regular.177a43ac.otf
+Content Type: binary/octet-stream
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/fonts/IBMPlexSans-SemiBold.1f4b8be3.otf
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\fonts\IBMPlexSans-SemiBold.1f4b8be3.otf
+Content Type: binary/octet-stream
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/fonts/MalayalamMN-Bold.3709416c.ttf
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\fonts\MalayalamMN-Bold.3709416c.ttf
+Content Type: binary/octet-stream
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/fonts/MalayalamMN.c5184cef.ttf
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\fonts\MalayalamMN.c5184cef.ttf
+Content Type: binary/octet-stream
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/fonts/NotoSerif-Bold.cd68b227.ttf
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\fonts\NotoSerif-Bold.cd68b227.ttf
+Content Type: binary/octet-stream
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/fonts/NotoSerif-Regular.ceeb2cf5.ttf
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\fonts\NotoSerif-Regular.ceeb2cf5.ttf
+Content Type: binary/octet-stream
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/adventure1_b.20c6c69c.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\adventure1_b.20c6c69c.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/adventure2_b.17f936a9.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\adventure2_b.17f936a9.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/adventure3_b.6a69a499.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\adventure3_b.6a69a499.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/adventure_bg1.f5c18016.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\adventure_bg1.f5c18016.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/adventure_bg2.a2a63f18.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\adventure_bg2.a2a63f18.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/adventure_bg3.76c3660b.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\adventure_bg3.76c3660b.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/ampoule1.014119ab.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\ampoule1.014119ab.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/ampoule2.6f828ba6.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\ampoule2.6f828ba6.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/Background_layer01_8k1.f4479ef0.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\Background_layer01_8k1.f4479ef0.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/bar-role.173d5f90.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\bar-role.173d5f90.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/bar-tit.09ee5966.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\bar-tit.09ee5966.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/bar-tit2.1159b4d6.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\bar-tit2.1159b4d6.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/bar-tit3.89b9264e.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\bar-tit3.89b9264e.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/basic_frame1.52ac7d27.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\basic_frame1.52ac7d27.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/border-black.8f294de6.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\border-black.8f294de6.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/border-red.fc4f1fb9.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\border-red.fc4f1fb9.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/boxbg.af3d9904.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\boxbg.af3d9904.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/btnbg.8f1fb8b0.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\btnbg.8f1fb8b0.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/btnbg2.6093348f.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\btnbg2.6093348f.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/btnbg3.d55b108d.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\btnbg3.d55b108d.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/dia_failbg.78661339.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\dia_failbg.78661339.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/dia_successbg.18e722c8.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\dia_successbg.18e722c8.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/Equipment1.25ac49cb.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\Equipment1.25ac49cb.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/Equipment2.17b0ae4d.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\Equipment2.17b0ae4d.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/Equipment3.f508dd9c.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\Equipment3.f508dd9c.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/Equipment4.83c26a7c.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\Equipment4.83c26a7c.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/Equipment5.03aea503.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\Equipment5.03aea503.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/Equipment6.aec44755.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\Equipment6.aec44755.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/Equipment7.d476a450.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\Equipment7.d476a450.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/Equipment8.03a2c3b2.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\Equipment8.03a2c3b2.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/Equipment9.cccf7679.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\Equipment9.cccf7679.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/Frame112257.ceebf209.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\Frame112257.ceebf209.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/Frame112265.c2682533.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\Frame112265.c2682533.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/Frame1123489.c8c15116.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\Frame1123489.c8c15116.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/Frame112411.ab94bc9b.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\Frame112411.ab94bc9b.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/Frame112496.95dcec93.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\Frame112496.95dcec93.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/game-infobg.daf17547.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\game-infobg.daf17547.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/gamebg0.4b9ebe44.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\gamebg0.4b9ebe44.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/gamebg10.df3bb716.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\gamebg10.df3bb716.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/gamebg13.e334c85c.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\gamebg13.e334c85c.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/gamebg13_mobile.e71ac684.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\gamebg13_mobile.e71ac684.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/gamebg14.828d2744.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\gamebg14.828d2744.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/gamebg16.f3b4417f.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\gamebg16.f3b4417f.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/gamebg2.a69b3c4c.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\gamebg2.a69b3c4c.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/gamebg2_mobile.d04a2cee.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\gamebg2_mobile.d04a2cee.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/gamebg3.dc9af3d4.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\gamebg3.dc9af3d4.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/gamebg4.13df25d7.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\gamebg4.13df25d7.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/gamebg5.5881409d.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\gamebg5.5881409d.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/gamebg6.24e3a2ad.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\gamebg6.24e3a2ad.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/gamebg8.f9d0ef57.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\gamebg8.f9d0ef57.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/gamebtn1.3cef70aa.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\gamebtn1.3cef70aa.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/gamebtn192.7b2a9d72.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\gamebtn192.7b2a9d72.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/gamebtn192_c.dc2a69b6.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\gamebtn192_c.dc2a69b6.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/gamebtn192_d.d7710d7a.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\gamebtn192_d.d7710d7a.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/gamebtn192_f.36bbd13e.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\gamebtn192_f.36bbd13e.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/gamebtn252.a0c4a43c.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\gamebtn252.a0c4a43c.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/gamebtn312.900dbb73.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\gamebtn312.900dbb73.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/gamebtn424.a0462784.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\gamebtn424.a0462784.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/Hero-bg.96240b46.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\Hero-bg.96240b46.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/indexbg1.2f8e33c7.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\indexbg1.2f8e33c7.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/indexbg2.03562d82.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\indexbg2.03562d82.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/indexbg4.33ec0f93.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\indexbg4.33ec0f93.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/indexbg5.d0b3fe59.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\indexbg5.d0b3fe59.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/lever-bg.2d4fceb3.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\lever-bg.2d4fceb3.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/life-bg.116d9420.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\life-bg.116d9420.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/linepic.db54f717.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\linepic.db54f717.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/line_hp.c22d0dac.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\line_hp.c22d0dac.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/line_Mp.5083d8c0.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\line_Mp.5083d8c0.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/maskbg1.34b45fbe.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\maskbg1.34b45fbe.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/maskbg2.e9d9c9b0.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\maskbg2.e9d9c9b0.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/maskbg3.9bdfacb6.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\maskbg3.9bdfacb6.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/maskbg4.ec1236e6.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\maskbg4.ec1236e6.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/Paper6.d3de4fe4.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\Paper6.d3de4fe4.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/person-imgbg.649bafd3.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\person-imgbg.649bafd3.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/person-infobg.ce5d28dc.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\person-infobg.ce5d28dc.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/person-lvup__bg.5b62030e.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\person-lvup__bg.5b62030e.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/pop_up_window.b22f5658.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\pop_up_window.b22f5658.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/pop_up_window2_mobile.57260e64.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\pop_up_window2_mobile.57260e64.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/pop_up_window_top.cddf7215.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\pop_up_window_top.cddf7215.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/Rectangle.8acd42a2.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\Rectangle.8acd42a2.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/Rectangle12914.309ab6a6.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\Rectangle12914.309ab6a6.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/Rectangle12915.906414dc.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\Rectangle12915.906414dc.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/reward-bg.0a3512d9.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\reward-bg.0a3512d9.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/right90.93bc29d1.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\right90.93bc29d1.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/ring-bot__bg.fe8e4f4e.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\ring-bot__bg.fe8e4f4e.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/Rune.56586db8.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\Rune.56586db8.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/scrollbar.3ea235de.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\scrollbar.3ea235de.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/shake-bg.b6d7e0a8.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\shake-bg.b6d7e0a8.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/spellbook_bg2.174c4189.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\spellbook_bg2.174c4189.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/stats_bar_1.3b5c8af8.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\stats_bar_1.3b5c8af8.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/stats_bar_1_mobile.bfb9d514.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\stats_bar_1_mobile.bfb9d514.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/token-bg.8f684d79.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\token-bg.8f684d79.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/Top-line.db54f717.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\Top-line.db54f717.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/top-tran.16600240.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\top-tran.16600240.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/winbg.d4eadce2.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\winbg.d4eadce2.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/img/wrapbg.0a2d7077.png
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\img\wrapbg.0a2d7077.png
+Content Type: image/png
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/js/app.2be0dc1b.js
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\js\app.2be0dc1b.js
+Content Type: application/javascript
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/js/chunk-07c395ba.3b44ec9f.js
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\js\chunk-07c395ba.3b44ec9f.js
+Content Type: application/javascript
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/js/chunk-24d3d5bc.62bd0af2.js
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\js\chunk-24d3d5bc.62bd0af2.js
+Content Type: application/javascript
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/js/chunk-3fb618dd.6c5e67a7.js
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\js\chunk-3fb618dd.6c5e67a7.js
+Content Type: application/javascript
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/js/chunk-4988cdf4.4583235b.js
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\js\chunk-4988cdf4.4583235b.js
+Content Type: application/javascript
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/js/chunk-4e2d2b83.40cb9db8.js
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\js\chunk-4e2d2b83.40cb9db8.js
+Content Type: application/javascript
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/js/chunk-5d349833.6f890a68.js
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\js\chunk-5d349833.6f890a68.js
+Content Type: application/javascript
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/js/chunk-62674bde.fce221e9.js
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\js\chunk-62674bde.fce221e9.js
+Content Type: application/javascript
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/js/chunk-6e94d52e.92cedae9.js
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\js\chunk-6e94d52e.92cedae9.js
+Content Type: application/javascript
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/js/chunk-743acde3.5347b966.js
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\js\chunk-743acde3.5347b966.js
+Content Type: application/javascript
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/js/chunk-9aed6a76.8185e401.js
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\js\chunk-9aed6a76.8185e401.js
+Content Type: application/javascript
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/js/chunk-cf10b3cc.0173f453.js
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\js\chunk-cf10b3cc.0173f453.js
+Content Type: application/javascript
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/js/chunk-dfc84484.055b1f8d.js
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\js\chunk-dfc84484.055b1f8d.js
+Content Type: application/javascript
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/js/chunk-e22d6c9a.a9b431e4.js
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\js\chunk-e22d6c9a.a9b431e4.js
+Content Type: application/javascript
+
+Uri: https://d1gv3eajsppg20.cloudfront.net/static/js/chunk-vendors.d251ca1e.js
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\static\js\chunk-vendors.d251ca1e.js
+Content Type: application/javascript
+
+Uri: https://www.binaryx.pro/
+File Name: C:\Downloaded Web Sites\www.binaryx.pro\index.htm
+Content Type: text/html
+
