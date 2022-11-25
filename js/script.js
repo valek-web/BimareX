@@ -51,4 +51,6 @@ const swiper = new Swiper(".swiper", {
   },
   slidesPerView: 3,
   centeredSlides: true,
+  watchSlidesProgress: true,
+  // spaceBetween: -60,
 });
