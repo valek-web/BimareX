@@ -52,5 +52,25 @@ const swiper = new Swiper(".swiper", {
   slidesPerView: 3,
   centeredSlides: true,
   watchSlidesProgress: true,
-  // spaceBetween: -60,
 });
+
+const bg_activeM = document.querySelector(".bg_activeM")
+const menu = document.querySelector(".menu")
+const open_menu = document.querySelector(".open-menu")
+const close_menu = document.querySelector(".close-menu")
+const body = document.querySelector('body') 
+
+open_menu.addEventListener('click', () => {
+  menu.classList.toggle("menu-isActive")
+  close_menu.classList.toggle("close-menu-isActive")
+  bg_activeM.classList.toggle("bg_activeMA")
+  body.style.overflow = "hidden"
+})
+
+close_menu.addEventListener('click', () => {
+  menu.classList.toggle("menu-isActive")
+  close_menu.classList.toggle("close-menu-isActive")
+  bg_activeM.classList.toggle("bg_activeMA")
+  body.style.overflow = "auto"
+})
+
