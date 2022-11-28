@@ -80,6 +80,54 @@
         margin-top: 15px;
     }
 
+    .banner {
+        position: relative;
+        min-height: 80vh;
+    }
+
+    .banner__content img {
+        width: 200px;
+        height: 30px;
+    }
+
+    .banner__subtitle {
+        color: #fff;
+        font-family: MalayalamMN-Bold;
+        font-size: 16px;
+        line-height: 23px;
+        margin-top: 4px;
+    }
+
+    .bunner__text {
+        font-family: MalayalamMN-Bold;
+        color: #fff;
+        margin-top: 6px;
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .banner__content {
+        position: absolute;
+        bottom: 19px;
+        left: 0;
+    }
+
+    .blockTitle__text {
+        font-size: 16px;
+    }
+
+    .blockTitle__line {
+        width: 30%;
+    }
+
+    .scene {
+        padding: 40px;
+    }
+
+    .video {
+        margin-top: 40px;
+    }
+
     .scene__imeges {
         flex-direction: column;
         width: 100%;
@@ -118,4 +166,11 @@
         display: block;
     }
 
+    .BNX__wrapper {
+        gap: 0;
+    }
+
+    .footer__bottom span:not(:first-child) {
+        margin-left: 0px;
+    }
 }

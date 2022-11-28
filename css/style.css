@@ -526,9 +526,10 @@ body {
 
 .footer {
   padding: 64px 0 24px 0;
-  background: url(./../img/bg/bg_footer.png) no-repeat center 0;
+  background: #000 url(./../img/bg/bg_footer.png) no-repeat center 0;
   background-size: cover;
   color: #baa694;
+
 }
 
 .footer__top {
