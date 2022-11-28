@@ -59,12 +59,14 @@ const menu = document.querySelector(".menu")
 const open_menu = document.querySelector(".open-menu")
 const close_menu = document.querySelector(".close-menu")
 const body = document.querySelector('body') 
+const header__article =  document.querySelector(".header__article")
 
 open_menu.addEventListener('click', () => {
   menu.classList.toggle("menu-isActive")
   close_menu.classList.toggle("close-menu-isActive")
   bg_activeM.classList.toggle("bg_activeMA")
   body.style.overflow = "hidden"
+  header__article.classList.toggle("header__article-isActive")
 })
 
 close_menu.addEventListener('click', () => {
@@ -72,5 +74,6 @@ close_menu.addEventListener('click', () => {
   close_menu.classList.toggle("close-menu-isActive")
   bg_activeM.classList.toggle("bg_activeMA")
   body.style.overflow = "auto"
+  header__article.classList.toggle("header__article-isActive")
 })
 

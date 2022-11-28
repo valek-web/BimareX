@@ -39,6 +39,7 @@ body {
 .header_nav {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 .header__article {
@@ -384,16 +385,8 @@ body {
   max-width: 942px;
   margin-top: 88px;
   min-height: 575px;
-  /* overflow-x: hidden; */
   overflow-y: auto;
-  /* touch-action: pan-y; */
 }
-
-/* .swiper-slide-visible:not(:first-child) {
-  margin: 0 -30px 0 -30px;
-  margin-left: -30px;
-  margin-right: -30px;
-} */
 
 .swiper-slide {
   min-height: 530px;
