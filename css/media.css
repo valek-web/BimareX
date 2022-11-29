@@ -2,6 +2,14 @@
     .header__wrapper {
         width: auto;
     }
+
+    .dao .header-box {
+        width: 100%;
+    }
+
+    .container {
+        max-width: 90vw;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -41,6 +49,14 @@
 
     .bg_activeMA {
         display: block;
+    }
+
+    .dao_info-content {
+        flex-direction: column;
+    }
+
+    .dao-arrow img {
+        transform: rotateZ(90deg);
     }
 }
 
@@ -121,7 +137,7 @@
     }
 
     .scene {
-        padding: 40px;
+        padding: 40px 0 40px;
     }
 
     .video {
@@ -172,5 +188,111 @@
 
     .footer__bottom span:not(:first-child) {
         margin-left: 0px;
+    }
+
+    .title {
+        padding: 60px 0 60px 0;
+    }
+
+    .title__class {
+        min-width: auto;
+        white-space: nowrap;
+        margin: 0 16px !important;
+        font-size: 24px
+    }
+
+    .title__line {
+        display: none;
+    }
+
+    .whitePaper__content {
+        padding: 25px 16px;
+    }
+
+    .paper-plane__item {
+        margin-left: 12px;
+    }
+
+    .whitePaper__content::before {
+        width: 210px;
+        height: 210px;
+        bottom: 7px;
+    }
+}
+
+
+@media screen and (max-width: 577px) {
+    .container {
+        max-width: 92%;
+    }
+
+    .header {
+        height: 56px;
+    }
+
+    .header__wrapper {
+        width: 88vw;
+    }
+
+    .menu {
+        width: 80vw;
+    }
+
+    .header__article {
+        width: 80vw;
+    }
+
+    .header__logo img {
+        width: 96px;
+        height: 34px;
+    }
+
+    .banner {
+        margin-top: 56px;
+        min-height: 40vh;
+        background-size: cover;
+    }
+
+    .bunner__text {
+        margin-top: 0;
+    }
+
+    .banner__subtitle {
+        margin-top: 0;
+    }
+
+    .banner__content {
+        padding: 12.2% 0 0 5%;
+    }
+
+    .video__play {
+        height: 40px;
+        width: 40px;
+    }
+
+    .blockTitle__line {
+        width: 12%;
+    }
+
+    .footer {
+        padding-right: 16px;
+        padding-left: 16px;
+        background-color: #141110;
+        background-image: url(./../img/bg/bg_footer_mobile.png);
+        background-size: 100% auto;
+    }
+
+    .footer__top {
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+
+    .footer__media {
+        flex-wrap: wrap;
+        margin-top: 15px;
+    }
+
+    .footer__bottom {
+        word-break: break-all;
     }
 }

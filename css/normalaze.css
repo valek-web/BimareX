@@ -18,8 +18,8 @@ body {
   line-height: 1.5;
 }
 
-ul[class],
-ol[class] {
+ul,
+ol {
   list-style: none;
 }
 
