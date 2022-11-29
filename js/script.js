@@ -7,12 +7,22 @@ document.querySelectorAll(".dropdown").forEach(function (dropDownWrapper) {
   const dropDownInput = dropDownWrapper.querySelector(
     ".dropdown__input-hidden"
   );
+  const menu__element = document.querySelector('.menu__elementDrop')
 
   // Клик по кнопке. Открыть/Закрыть select
   dropDownBtn.addEventListener("click", function (e) {
     dropDownList.classList.toggle("dropdown__list--visible");
     this.classList.add("dropdown__button--active");
   });
+
+  // dropDownBtn.addEventListener("mouseenter", function (e) {
+  //   if (dropDownList.className !== "dropdown__list dropdown__list--visible") {
+  //     dropDownList.classList.toggle("dropdown__list--visible");
+  //   }
+  //   this.classList.add("dropdown__button--active");
+  // });
+
+
 
   // Выбор элемента списка. Запомнить выбранное значение. Закрыть дропдаун
   dropDownListItems.forEach(function (listItem) {
@@ -32,6 +42,22 @@ document.querySelectorAll(".dropdown").forEach(function (dropDownWrapper) {
       dropDownList.classList.remove("dropdown__list--visible");
     }
   });
+
+  // dropDownList.addEventListener("mouseleave", (e) => {
+  //   console.log(e.relatedTarget)
+  //   if (e.relatedTarget !== menu__element) {
+  //     dropDownList.classList.toggle("dropdown__list--visible");
+  //   }
+  // });
+
+  // dropDownBtn.addEventListener("mouseleave", (e) => {
+  //   console.log(e.relatedTarget)
+  //   if (e.relatedTarget !== menu__element) {
+  //     dropDownList.classList.toggle("dropdown__list--visible");
+  //   }
+  // });
+
+
 
   // Нажатие на Tab или Escape. Закрыть дропдаун
   document.addEventListener("keydown", function (e) {
@@ -58,8 +84,8 @@ const bg_activeM = document.querySelector(".bg_activeM")
 const menu = document.querySelector(".menu")
 const open_menu = document.querySelector(".open-menu")
 const close_menu = document.querySelector(".close-menu")
-const body = document.querySelector('body') 
-const header__article =  document.querySelector(".header__article")
+const body = document.querySelector('body')
+const header__article = document.querySelector(".header__article")
 
 open_menu.addEventListener('click', () => {
   menu.classList.toggle("menu-isActive")

@@ -28,7 +28,23 @@
             </li>
             <li class="menu__element"><a href="#w">Game</a></li>
             <li class="menu__element"><a href="./../LiquidityMining.html">Liquidity Mining</a></li>
-            <li class="menu__element is_active"><a href="#">Other</a></li>
+            <li class="menu__element menu__elementDrop  is_active">
+              <div class="dropdown menu_dropdown">
+                <button class="dropdown__button">Other</button>
+                <ul class="dropdown__list">
+                  <a href="#">
+                    <li class="dropdown__list-item" data-value="travel">DAO</li>
+                  </a>
+                  <a href="./whitePaper.html">
+                    <li class="dropdown__list-item" data-value="lessons">
+                      White Paper
+                    </li>
+                  </a>
+
+                </ul>
+                <input type="text" name="select-category" value="" class="dropdown__input-hidden" />
+              </div>
+            </li>
             <div class="close-menu">
               <img src="./../img/icons/closeI.png" alt="Close">
             </div>
