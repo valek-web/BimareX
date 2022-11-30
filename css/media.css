@@ -213,10 +213,29 @@
         margin-left: 12px;
     }
 
+    .tabs {
+        padding-top: 94px;
+    }
+
+    .tab__content {
+        margin: 40px 0 79px;
+    }
+
+    .tabs__header::before {
+        bottom: 52px;
+    }
+
     .whitePaper__content::before {
         width: 210px;
         height: 210px;
         bottom: 7px;
+    }
+
+    .recruitHero__title {
+        width: 280px;
+        height: 40px;
+        line-height: 40px;
+        max-width: 360px;
     }
 }
 
@@ -294,5 +313,9 @@
 
     .footer__bottom {
         word-break: break-all;
+    }
+
+    .tabs__header::before {
+        bottom: 56px;
     }
 }
