@@ -63,7 +63,7 @@
                         </div>
                     </div>
                 </nav>
-                <div class="open-menu" id="open_menu">Menu <img src="./img/icons/menuI.png" alt="#"></div>
+                <div class="btn-icon" id="open_menu">Menu <img src="./img/icons/menuI.png" alt="#"></div>
             </div>
         </div>
         <div class="bg_activeM">
@@ -81,7 +81,7 @@
                                 <div class="tabs__nav-item">Recruit Hero</div>
                                 <div class="tabs__nav-item">My Hero</div>
                                 <div class="tabs__nav-item">Adventure</div>
-                                <div class="tabs__nav-item">Extra Bonus</div>
+                                <div class="tabs__nav-item tabs__nav-item-active">Extra Bonus</div>
                                 <div class="tabs__nav-item">Leaderboard</div>
                                 <div class="tabs__nav-item">Treasure Chest</div>
                                 <div class="tabs__nav-item">Inventory </div>
@@ -91,19 +91,370 @@
                     </div>
                 </div>
                 <div class="tabs__content">
-                    <div class="tab tab-active">
+                    <div class="tab ">
                         <div class="tab__content">
                             <div class="recruitHero">
-                                <img src="./img/recruitHero/bg_window.png" alt="#" class="recruitHero_bg">
-                                <img src="./img/recruitHero/bg_window.png" alt="#" class="recruitHero_bg">
+                                <img src="./img/game/recruitHero/bg_window.png" alt="#" class="recruitHero_bg">
+                                <img src="./img/game/recruitHero/bg_window.png" alt="#" class="recruitHero_bg">
                                 <div class="recruitHero__content">
                                     <div class="recruitHero__ava">
-                                        <img src="./img/recruitHero/ava.png" alt="#">
+                                        <img src="./img/game/recruitHero/ava.png" alt="#">
                                     </div>
                                     <div class="recruitHero__name">--</div>
                                     <div class="recruitHero__title">Get your hero now</div>
                                     <div class="recruitHero__btn">Authorize </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab">
+                        <div class="tab__content">
+                            <div class="myHero">
+                                <div class="myHero__data">
+                                    <div class="myHero__header">
+                                        <div class="myHero__dropdown">
+                                            <div class="dropdown">
+                                                <button class="dropdown__button">All <img
+                                                        src="./img/game/myHero/dropdown.png" alt=""></button>
+                                                <ul class="dropdown__list">
+                                                    <li class="dropdown__list-item" data-value="lessons">
+                                                        All
+                                                    </li>
+                                                    <li class="dropdown__list-item" data-value="travel">Dividend</li>
+                                                    <li class="dropdown__list-item" data-value="lessons">
+                                                        Mining
+                                                    </li>
+
+                                                </ul>
+                                                <input type="text" name="select-category" value=""
+                                                    class="dropdown__input-hidden" />
+                                            </div>
+                                        </div>
+
+                                        <div class="myHero__button">
+                                            <div class="grid btn-active">
+                                                <div class="btn__box">
+                                                    <span></span><span></span><span></span><span></span>
+                                                </div>
+
+                                            </div>
+                                            <div class="lines">
+                                                <div class="btn__box"><span></span><span></span><span></span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="myHero__data">
+                                        No data
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab">
+                        <div class="tab__content">
+                            <div class="history__adventure">
+                                <div class="btn-icon">History<img src="./img/icons/history.png" alt="#"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab tab-active">
+                        <div class="tab__content">
+                            <div class="ultraBonus">
+                                <div class="ultraBonus__wrapper">
+                                    <div class="ultraBonus__article">
+                                        Idle Hero
+                                    </div>
+                                    <div class="ultraBonus__content">
+                                        <div class="item">
+                                            <div class="item__title">Part-time Job</div>
+                                            <div class="item__img"><img src="./img/game/extraBM/1.png" alt="#"></div>
+                                            <div class="item__reward">
+                                                <div class="item__rewardImg"><img src="./img/game/extraBM/icon.png"
+                                                        alt="#"></div>
+                                            </div>
+                                            <div class="limit">
+                                                <div class="limit__header">
+                                                    <img src="/img/game/extraBM/limit_icon.png" alt="#">
+                                                    <div class="limit__text">Lv. 1 and above</div>
+                                                </div>
+                                                <div class="limit__content">
+                                                    <img src="/img/game/extraBM/limit_img.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="item__boxBtn">
+                                                <button class="item_btn">ready</button>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="item__title">Part-time Job</div>
+                                            <div class="item__img"><img src="./img/game/extraBM/2.png" alt="#"></div>
+                                            <div class="item__reward">
+                                                <div class="item__rewardImg"><img src="./img/game/extraBM/icon.png"
+                                                        alt="#"></div>
+                                            </div>
+                                            <div class="limit">
+                                                <div class="limit__header">
+                                                    <img src="/img/game/extraBM/limit_icon.png" alt="#">
+                                                    <div class="limit__text">Lv. 1 and above</div>
+                                                </div>
+                                                <div class="limit__content">
+                                                    <img src="/img/game/extraBM/limit_img.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="item__boxBtn">
+                                                <button class="item_btn">ready</button>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="item__title">Part-time Job</div>
+                                            <div class="item__img"><img src="./img/game/extraBM/3.png" alt="#"></div>
+                                            <div class="item__reward">
+                                                <div class="item__rewardImg"><img src="./img/game/extraBM/icon.png"
+                                                        alt="#"></div>
+                                            </div>
+                                            <div class="limit">
+                                                <div class="limit__header">
+                                                    <img src="/img/game/extraBM/limit_icon.png" alt="#">
+                                                    <div class="limit__text">Lv. 1 and above</div>
+                                                </div>
+                                                <div class="limit__content">
+                                                    <img src="/img/game/extraBM/limit_img.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="item__boxBtn">
+                                                <button class="item_btn">ready</button>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="item__title">Part-time Job</div>
+                                            <div class="item__img"><img src="./img/game/extraBM/4.png" alt="#"></div>
+                                            <div class="item__reward">
+                                                <div class="item__rewardImg"><img src="./img/game/extraBM/icon.png"
+                                                        alt="#"></div>
+                                            </div>
+                                            <div class="limit">
+                                                <div class="limit__header">
+                                                    <img src="/img/game/extraBM/limit_icon.png" alt="#">
+                                                    <div class="limit__text">Lv. 1 and above</div>
+                                                </div>
+                                                <div class="limit__content">
+                                                    <img src="/img/game/extraBM/limit_img.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="item__boxBtn">
+                                                <button class="item_btn">ready</button>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="item__title">Part-time Job</div>
+                                            <div class="item__img"><img src="./img/game/extraBM/5.png" alt="#"></div>
+                                            <div class="item__reward">
+                                                <div class="item__rewardImg"><img src="./img/game/extraBM/icon.png"
+                                                        alt="#"></div>
+                                            </div>
+                                            <div class="limit">
+                                                <div class="limit__header">
+                                                    <img src="/img/game/extraBM/limit_icon.png" alt="#">
+                                                    <div class="limit__text">Lv. 1 and above</div>
+                                                </div>
+                                                <div class="limit__content">
+                                                    <img src="/img/game/extraBM/limit_img.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="item__boxBtn">
+                                                <button class="item_btn">ready</button>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="item__title">Part-time Job</div>
+                                            <div class="item__img"><img src="./img/game/extraBM/6.png" alt="#"></div>
+                                            <div class="item__reward">
+                                                <div class="item__rewardImg"><img src="./img/game/extraBM/icon.png"
+                                                        alt="#"></div>
+                                            </div>
+                                            <div class="limit">
+                                                <div class="limit__header">
+                                                    <img src="/img/game/extraBM/limit_icon.png" alt="#">
+                                                    <div class="limit__text">Lv. 1 and above</div>
+                                                </div>
+                                                <div class="limit__content">
+                                                    <img src="/img/game/extraBM/limit_img.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="item__boxBtn">
+                                                <button class="item_btn">ready</button>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="item__title">Part-time Job</div>
+                                            <div class="item__img"><img src="./img/game/extraBM/7.png" alt="#"></div>
+                                            <div class="item__reward">
+                                                <div class="item__rewardImg"><img src="./img/game/extraBM/icon.png"
+                                                        alt="#"></div>
+                                            </div>
+                                            <div class="limit">
+                                                <div class="limit__header">
+                                                    <img src="/img/game/extraBM/limit_icon.png" alt="#">
+                                                    <div class="limit__text">Lv. 1 and above</div>
+                                                </div>
+                                                <div class="limit__content">
+                                                    <img src="/img/game/extraBM/limit_img.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="item__boxBtn">
+                                                <button class="item_btn">ready</button>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="item__title">Part-time Job</div>
+                                            <div class="item__img"><img src="./img/game/extraBM/8.png" alt="#"></div>
+                                            <div class="item__reward">
+                                                <div class="item__rewardImg"><img src="./img/game/extraBM/icon.png"
+                                                        alt="#"></div>
+                                            </div>
+                                            <div class="limit">
+                                                <div class="limit__header">
+                                                    <img src="/img/game/extraBM/limit_icon.png" alt="#">
+                                                    <div class="limit__text">Lv. 1 and above</div>
+                                                </div>
+                                                <div class="limit__content">
+                                                    <img src="/img/game/extraBM/limit_img.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="item__boxBtn">
+                                                <button class="item_btn">ready</button>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="item__title">Part-time Job</div>
+                                            <div class="item__img"><img src="./img/game/extraBM/9.png" alt="#"></div>
+                                            <div class="item__reward">
+                                                <div class="item__rewardImg"><img src="./img/game/extraBM/icon.png"
+                                                        alt="#"></div>
+                                            </div>
+                                            <div class="limit">
+                                                <div class="limit__header">
+                                                    <img src="/img/game/extraBM/limit_icon.png" alt="#">
+                                                    <div class="limit__text">Lv. 1 and above</div>
+                                                </div>
+                                                <div class="limit__content">
+                                                    <img src="/img/game/extraBM/limit_img.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="item__boxBtn">
+                                                <button class="item_btn">ready</button>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="item__title">Part-time Job</div>
+                                            <div class="item__img"><img src="./img/game/extraBM/10.png" alt="#"></div>
+                                            <div class="item__reward">
+                                                <div class="item__rewardImg"><img src="./img/game/extraBM/icon.png"
+                                                        alt="#"></div>
+                                            </div>
+                                            <div class="limit">
+                                                <div class="limit__header">
+                                                    <img src="/img/game/extraBM/limit_icon.png" alt="#">
+                                                    <div class="limit__text">Lv. 1 and above</div>
+                                                </div>
+                                                <div class="limit__content">
+                                                    <img src="/img/game/extraBM/limit_img.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="item__boxBtn">
+                                                <button class="item_btn">ready</button>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="item__title">Part-time Job</div>
+                                            <div class="item__img"><img src="./img/game/extraBM/11.png" alt="#"></div>
+                                            <div class="item__reward">
+                                                <div class="item__rewardImg"><img src="./img/game/extraBM/icon.png"
+                                                        alt="#"></div>
+                                            </div>
+                                            <div class="limit">
+                                                <div class="limit__header">
+                                                    <img src="/img/game/extraBM/limit_icon.png" alt="#">
+                                                    <div class="limit__text">Lv. 1 and above</div>
+                                                </div>
+                                                <div class="limit__content">
+                                                    <img src="/img/game/extraBM/limit_img.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="item__boxBtn">
+                                                <button class="item_btn">ready</button>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="item__title">Part-time Job</div>
+                                            <div class="item__img"><img src="./img/game/extraBM/12.png" alt="#"></div>
+                                            <div class="item__reward">
+                                                <div class="item__rewardImg"><img src="./img/game/extraBM/icon.png"
+                                                        alt="#"></div>
+                                            </div>
+                                            <div class="limit">
+                                                <div class="limit__header">
+                                                    <img src="/img/game/extraBM/limit_icon.png" alt="#">
+                                                    <div class="limit__text">Lv. 1 and above</div>
+                                                </div>
+                                                <div class="limit__content">
+                                                    <img src="/img/game/extraBM/limit_img.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="item__boxBtn">
+                                                <button class="item_btn">ready</button>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="item__title">Part-time Job</div>
+                                            <div class="item__img"><img src="./img/game/extraBM/13.png" alt="#"></div>
+                                            <div class="item__reward">
+                                                <div class="item__rewardImg"><img src="./img/game/extraBM/icon.png"
+                                                        alt="#"></div>
+                                            </div>
+                                            <div class="limit">
+                                                <div class="limit__header">
+                                                    <img src="/img/game/extraBM/limit_icon.png" alt="#">
+                                                    <div class="limit__text">Lv. 1 and above</div>
+                                                </div>
+                                                <div class="limit__content">
+                                                    <img src="/img/game/extraBM/limit_img.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="item__boxBtn">
+                                                <button class="item_btn">ready</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab">
+                        <div class="tab__content">
+                            <div class="history__TreasureChest">
+                                <div class="btn-icon">Leaderboard</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab">
+                        <div class="tab__content">
+                            <div class="history__TreasureChest">
+                                <div class="btn-icon">History<img src="./img/icons/history.png" alt="#"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab">
+                        <div class="tab__content">
+                            <div class="history__TreasureChest">
+                                <div class="btn-icon">Inventory</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab">
+                        <div class="tab__content">
+                            <div class="history__TreasureChest">
+                                <div class="btn-icon">Challenger Competition</div>
                             </div>
                         </div>
                     </div>

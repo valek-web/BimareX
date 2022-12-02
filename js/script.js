@@ -1,3 +1,33 @@
+// Menu const
+const bg_activeM = document.querySelector(".bg_activeM")
+const menu = document.querySelector(".menu")
+const open_menu = document.querySelector("#open_menu")
+const close_menu = document.querySelector(".close-menu")
+const body = document.querySelector('body')
+const header__article = document.querySelector(".header__article")
+
+// Tabs const
+const tabs__nav = document.querySelectorAll(".tabs__nav-item")
+const tabs__content = document.querySelectorAll(".tab")
+
+// Menu fun
+open_menu.addEventListener('click', () => {
+  menu.classList.toggle("menu-isActive")
+  close_menu.classList.toggle("close-menu-isActive")
+  bg_activeM.classList.toggle("bg_activeMA")
+  body.style.overflow = "hidden"
+  header__article.classList.toggle("header__article-isActive")
+})
+
+close_menu.addEventListener('click', () => {
+  menu.classList.toggle("menu-isActive")
+  close_menu.classList.toggle("close-menu-isActive")
+  bg_activeM.classList.toggle("bg_activeMA")
+  body.style.overflow = "auto"
+  header__article.classList.toggle("header__article-isActive")
+})
+
+// Dropdown
 document.querySelectorAll(".dropdown").forEach(function (dropDownWrapper) {
   const dropDownBtn = dropDownWrapper.querySelector(".dropdown__button");
   const dropDownList = dropDownWrapper.querySelector(".dropdown__list");
@@ -68,38 +98,39 @@ document.querySelectorAll(".dropdown").forEach(function (dropDownWrapper) {
   });
 });
 
-const swiper = new Swiper(".swiper", {
+// Slider 
+const swiper = new Swiper('.swiper', {
   direction: "horizontal",
+  effect: 'coverflow',
   loop: true,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-  slidesPerView: 3,
   centeredSlides: true,
-  watchSlidesProgress: true,
+  slidesPerView: 1.5,
+  lazyLoading: true,
+  lazyLoadingInPrevNext: true,
+  speed: 1000,
+  additionalSlide: 1,
+  coverflow: {
+    rotate: 0,
+    stretch: 150,
+    depth: 200,
+    modifier: 1,
+    slideShadows: false,
+  }
 });
 
-const bg_activeM = document.querySelector(".bg_activeM")
-const menu = document.querySelector(".menu")
-const open_menu = document.querySelector(".open-menu")
-const close_menu = document.querySelector(".close-menu")
-const body = document.querySelector('body')
-const header__article = document.querySelector(".header__article")
-
-open_menu.addEventListener('click', () => {
-  menu.classList.toggle("menu-isActive")
-  close_menu.classList.toggle("close-menu-isActive")
-  bg_activeM.classList.toggle("bg_activeMA")
-  body.style.overflow = "hidden"
-  header__article.classList.toggle("header__article-isActive")
-})
-
-close_menu.addEventListener('click', () => {
-  menu.classList.toggle("menu-isActive")
-  close_menu.classList.toggle("close-menu-isActive")
-  bg_activeM.classList.toggle("bg_activeMA")
-  body.style.overflow = "auto"
-  header__article.classList.toggle("header__article-isActive")
-})
+// Tabs
+for (let i = 0; i < tabs__nav.length; i++) {
+  console.log('for')
+  tabs__nav[i].addEventListener('click', () => {
+    console.log('click')
+    document.querySelector('.tabs__nav-item-active').classList.toggle('tabs__nav-item-active')
+    tabs__nav[i].classList.toggle('tabs__nav-item-active')
+    document.querySelector('.tab-active').classList.toggle('tab-active')
+    tabs__content[i].classList.toggle('tab-active')
+  })
+}
 
