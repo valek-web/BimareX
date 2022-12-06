@@ -1,62 +1,76 @@
 @font-face {
   font-family: DINPro-Regular;
-  src: url(../fonts/DINPro-Regular.86fda987.otf);
+  src: url(/fonts/DINPro-Regular.86fda987.otf);
 }
+
 @font-face {
   font-family: DINPro-Medium;
-  src: url(../fonts/DINPro-Medium.6ea892b4.ttf);
+  src: url(/fonts/DINPro-Medium.6ea892b4.ttf);
 }
+
 @font-face {
   font-family: DINPro-Bold;
-  src: url(../fonts/DINPro-Bold.76948238.ttf);
+  src: url(/fonts/DINPro-Bold.76948238.ttf);
 }
+
 @font-face {
   font-family: IBMPlexSans-Regular;
-  src: url(../fonts/IBMPlexSans-Regular.177a43ac.otf);
+  src: url(/fonts/IBMPlexSans-Regular.177a43ac.otf);
 }
+
 @font-face {
   font-family: IBMPlexSans-Medium;
-  src: url(../fonts/IBMPlexSans-Medium.74982386.otf);
+  src: url(/fonts/IBMPlexSans-Medium.74982386.otf);
 }
+
 @font-face {
   font-family: IBMPlexSans-SemiBold;
   font-weight: 600;
-  src: url(../fonts/IBMPlexSans-SemiBold.1f4b8be3.otf);
+  src: url(/fonts/IBMPlexSans-SemiBold.1f4b8be3.otf);
 }
+
 @font-face {
   font-family: MalayalamMN;
-  src: url(../fonts/MalayalamMN.c5184cef.ttf);
+  src: url(/fonts/MalayalamMN.c5184cef.ttf);
 }
+
 @font-face {
   font-family: MalayalamMN-Bold;
   font-weight: 700;
-  src: url(../fonts/MalayalamMN-Bold.3709416c.ttf);
+  src: url(/fonts/MalayalamMN-Bold.3709416c.ttf);
 }
+
 @font-face {
   font-family: Alegreya-Black;
-  src: url(../fonts/Alegreya-Black.07a9bb75.ttf);
+  src: url(/fonts/Alegreya-Black.07a9bb75.ttf);
 }
+
 @font-face {
   font-family: Alegreya-ExtraBold;
-  src: url(../fonts/Alegreya-ExtraBold.a2cdca82.ttf);
+  src: url(/fonts/Alegreya-ExtraBold.a2cdca82.ttf);
 }
+
 @font-face {
   font-family: Alegreya-Bold;
-  src: url(../fonts/Alegreya-Bold.52a9512b.ttf);
+  src: url(/fonts/Alegreya-Bold.52a9512b.ttf);
 }
+
 @font-face {
   font-family: Alegreya-Medium;
-  src: url(../fonts/Alegreya-Medium.b6c38435.ttf);
+  src: url(/fonts/Alegreya-Medium.b6c38435.ttf);
 }
+
 @font-face {
   font-family: Alegreya-Regular;
-  src: url(../fonts/Alegreya-Regular.fb910991.ttf);
+  src: url(/fonts/Alegreya-Regular.fb910991.ttf);
 }
+
 @font-face {
   font-family: NotoSerif-Bold;
-  src: url(../fonts/NotoSerif-Bold.cd68b227.ttf);
+  src: url(/fonts/NotoSerif-Bold.cd68b227.ttf);
 }
+
 @font-face {
   font-family: NotoSerif-Regular;
-  src: url(../fonts/NotoSerif-Regular.ceeb2cf5.ttf);
+  src: url(/fonts/NotoSerif-Regular.ceeb2cf5.ttf);
 }

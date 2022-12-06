@@ -101,25 +101,30 @@ document.querySelectorAll(".dropdown").forEach(function (dropDownWrapper) {
 // Slider 
 const swiper = new Swiper('.swiper', {
   direction: "horizontal",
-  effect: 'coverflow',
+  // effect: 'coverflow',
   loop: true,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
   centeredSlides: true,
-  slidesPerView: 1.5,
+  slidesPerView: 3,
   lazyLoading: true,
   lazyLoadingInPrevNext: true,
-  speed: 1000,
+  watchSlidesProgress: true,
+  speed: 300,
   additionalSlide: 1,
-  coverflow: {
-    rotate: 0,
-    stretch: 150,
-    depth: 200,
-    modifier: 1,
-    slideShadows: false,
-  }
+  // const swiper = new Swiper(".swiper", {
+  //   direction: "horizontal",
+  //   loop: true,
+  //   navigation: {
+  //     nextEl: ".swiper-button-next",
+  //     prevEl: ".swiper-button-prev",
+  //   },
+  //   slidesPerView: 3,
+  //   centeredSlides: true,
+  //   watchSlidesProgress: true,
+  // });
 });
 
 // Tabs
