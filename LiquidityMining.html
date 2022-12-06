@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,132 +8,159 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="./css/normalaze.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./css/fonts.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/media.css">
-</head>
+    <link rel="stylesheet" href="./css/media.css" />
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <div class="header-box">
-            <div class="header__wrapper">
-                <nav class="header_nav">
-                    <div class="header__logo"><img src="./img/logo.png" alt="" /></div>
-                    <ul class="menu">
-                        <li class="menu__element">
-                            <a href="./index.html">Home</a>
-                        </li>
-                        <li class="menu__element"><a href="./game.html">Game</a></li>
-                        <li class="menu__element  is_active"><a href="#">Liquidity Mining</a></li>
-                        <li class="menu__element menu__elementDrop">
-                            <div class="dropdown menu_dropdown">
-                                <button class="dropdown__button">Other</button>
-                                <ul class="dropdown__list">
-                                    <a href="./other/dao.html">
-                                        <li class="dropdown__list-item" data-value="travel">DAO</li>
-                                    </a>
-                                    <a href="./other/whitePaper.html">
-                                        <li class="dropdown__list-item" data-value="lessons">
-                                            White Paper
-                                        </li>
-                                    </a>
-
-                                </ul>
-                                <input type="text" name="select-category" value="" class="dropdown__input-hidden" />
-                            </div>
-                        </li>
-                        <div class="close-menu">
-                            <img src="./img/icons/closeI.png" alt="Close">
-                        </div>
-
-                    </ul>
-                    <div class="header__article">
-                        <button class="button">Connect Wallet</button>
-                        <div class="dropdown">
-                            <button class="dropdown__button">English</button>
-                            <ul class="dropdown__list">
-                                <li class="dropdown__list-item" data-value="travel">English</li>
-                                <li class="dropdown__list-item" data-value="lessons">
-                                    繁體中文
-                                </li>
-                            </ul>
-                            <input type="text" name="select-category" value="" class="dropdown__input-hidden" />
-                        </div>
-                    </div>
-                </nav>
-                <div class="btn-icon" id="open_menu">Menu <img src="./img/icons/menuI.png" alt="#"></div>
+      <div class="header-box">
+        <div class="header__wrapper">
+          <nav class="header_nav">
+            <div class="header__logo"><img src="./img/logo.png" alt="" /></div>
+            <ul class="menu">
+              <li class="menu__element">
+                <a href="./index.html">Home</a>
+              </li>
+              <li class="menu__element"><a href="./game.html">Game</a></li>
+              <li class="menu__element is_active">
+                <a href="#">Liquidity Mining</a>
+              </li>
+              <li class="menu__element menu__elementDrop">
+                <div class="dropdown menu_dropdown">
+                  <button class="dropdown__button">Other</button>
+                  <ul class="dropdown__list">
+                    <a href="./other/dao.html">
+                      <li class="dropdown-item">DAO</li>
+                    </a>
+                    <a href="./other/whitePaper.html">
+                      <li class="dropdown-item">White Paper</li>
+                    </a>
+                  </ul>
+                  <input
+                    type="text"
+                    name="select-category"
+                    value=""
+                    class="dropdown__input-hidden"
+                  />
+                </div>
+              </li>
+              <div class="close-menu">
+                <img src="./img/icons/closeI.png" alt="Close" />
+              </div>
+            </ul>
+            <div class="header__article">
+              <button class="button">Connect Wallet</button>
+              <div class="dropdown">
+                <button class="dropdown__button inner__btn">English</button>
+                <ul class="dropdown__list">
+                  <li class="dropdown__list-item" data-value="travel">
+                    English
+                  </li>
+                  <li class="dropdown__list-item" data-value="lessons">
+                    繁體中文
+                  </li>
+                </ul>
+                <input
+                  type="text"
+                  name="select-category"
+                  value=""
+                  class="dropdown__input-hidden"
+                />
+              </div>
             </div>
+          </nav>
+          <div class="btn-icon" id="open_menu">
+            Menu <img src="./img/icons/menuI.png" alt="#" />
+          </div>
         </div>
-        <div class="bg_activeM">
-        </div>
+      </div>
+      <div class="bg_activeM"></div>
     </header>
     <main class="main">
-        <section class="title">
-            <div class="container">
-                <div class="title__wrapper">
-                    <div class="title__line left_line"></div>
-                    <span class="title__class">Liquidity Mining
-                    </span>
-                    <div class="title__line right_line"></div>
-                </div>
-            </div>
-        </section>
+      <section class="title">
+        <div class="container">
+          <div class="title__wrapper">
+            <div class="title__line left_line"></div>
+            <span class="title__class">Liquidity Mining </span>
+            <div class="title__line right_line"></div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="footer">
-        <div class="container">
-
-
-            <div class="footer__top">
-                <div class="header__logo"><img src="./img/logo.png" alt="" /></div>
-                <div class="footer__media">
-                    <div class="footer__btns">
-                        <button class="button">Buy $BNX</button><button class="button">Buy $BNX</button><button
-                            class="button">Buy
-                            $BNX</button>
-                    </div>
-                    <div class="footer__socialNetwork">
-                        <div class="footer__title">
-                            SOCIAL
-                        </div>
-                        <ul class="socialNet">
-                            <li class="socialNet__i"><a href="#"><img src="./img/icons/twitter.svg"
-                                        alt=""><span>Twitter</span></a>
-                            </li>
-                            <li class="socialNet__i"><a href="#"><img src="./img/icons/telegram.svg"
-                                        alt=""><span>Telegram</span></a>
-                            </li>
-                            <li class="socialNet__i"><a href="#"><img src="./img/icons/medium.svg"
-                                        alt=""><span>Medium</span></a></li>
-                            <li class="socialNet__i"><a href="#"><img src="./img/icons/discord.svg"
-                                        alt=""><span>Discord</span></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer__info">
-                        <div class="footer__title">
-                            INFO
-                        </div>
-                        <ul class="socialNet">
-                            <li class="socialNet__i"><a href="#"><span>Audit Report</span></a></li>
-                        </ul>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="footer__top">
+          <div class="header__logo"><img src="./img/logo.png" alt="" /></div>
+          <div class="footer__media">
+            <div class="footer__btns">
+              <button class="button">Buy $BNX</button
+              ><button class="button">Buy $BNX</button
+              ><button class="button">Buy $BNX</button>
             </div>
-
-            <div class="footer__bottom">
-                <span>
-                    $BNX Token Address: 0x8c851d1a123ff703bd1f9dabe631b69902df5f97
-                </span>
-                <span>
-                    $Gold Token Address: 0xb3a6381070B1a15169DEA646166EC0699fDAeA79</span>
-                <span>
-                    $Crystal Token Address: 0x6AD7e691f1d2723523e70751f82052A8A2C47726
-                </span>
+            <div class="footer__socialNetwork">
+              <div class="footer__title">SOCIAL</div>
+              <ul class="socialNet">
+                <li class="socialNet__i">
+                  <a href="#"
+                    ><img src="./img/icons/twitter.svg" alt="" /><span
+                      >Twitter</span
+                    ></a
+                  >
+                </li>
+                <li class="socialNet__i">
+                  <a href="#"
+                    ><img src="./img/icons/telegram.svg" alt="" /><span
+                      >Telegram</span
+                    ></a
+                  >
+                </li>
+                <li class="socialNet__i">
+                  <a href="#"
+                    ><img src="./img/icons/medium.svg" alt="" /><span
+                      >Medium</span
+                    ></a
+                  >
+                </li>
+                <li class="socialNet__i">
+                  <a href="#"
+                    ><img src="./img/icons/discord.svg" alt="" /><span
+                      >Discord</span
+                    ></a
+                  >
+                </li>
+              </ul>
             </div>
+            <div class="footer__info">
+              <div class="footer__title">INFO</div>
+              <ul class="socialNet">
+                <li class="socialNet__i">
+                  <a href="#"><span>Audit Report</span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
+
+        <div class="footer__bottom">
+          <span>
+            $BNX Token Address: 0x8c851d1a123ff703bd1f9dabe631b69902df5f97
+          </span>
+          <span>
+            $Gold Token Address:
+            0xb3a6381070B1a15169DEA646166EC0699fDAeA79</span
+          >
+          <span>
+            $Crystal Token Address: 0x6AD7e691f1d2723523e70751f82052A8A2C47726
+          </span>
+        </div>
+      </div>
     </footer>
     <script src="./js/script.js"></script>
-</body>
-
+  </body>
 </html>

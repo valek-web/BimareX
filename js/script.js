@@ -37,7 +37,7 @@ document.querySelectorAll(".dropdown").forEach(function (dropDownWrapper) {
   const dropDownInput = dropDownWrapper.querySelector(
     ".dropdown__input-hidden"
   );
-  const menu__element = document.querySelector('.menu__elementDrop')
+  const inner__btn = document.querySelector('.inner__btn')
 
   // Клик по кнопке. Открыть/Закрыть select
   dropDownBtn.addEventListener("click", function (e) {
@@ -45,21 +45,12 @@ document.querySelectorAll(".dropdown").forEach(function (dropDownWrapper) {
     this.classList.add("dropdown__button--active");
   });
 
-  // dropDownBtn.addEventListener("mouseenter", function (e) {
-  //   if (dropDownList.className !== "dropdown__list dropdown__list--visible") {
-  //     dropDownList.classList.toggle("dropdown__list--visible");
-  //   }
-  //   this.classList.add("dropdown__button--active");
-  // });
-
-
-
   // Выбор элемента списка. Запомнить выбранное значение. Закрыть дропдаун
   dropDownListItems.forEach(function (listItem) {
     listItem.addEventListener("click", function (e) {
       e.stopPropagation();
-      dropDownBtn.innerText = this.innerText;
-      dropDownBtn.focus();
+      inner__btn.innerText = this.innerText;
+      inner__btn.focus();
       dropDownInput.value = this.dataset.value;
       dropDownList.classList.remove("dropdown__list--visible");
     });
@@ -73,22 +64,6 @@ document.querySelectorAll(".dropdown").forEach(function (dropDownWrapper) {
     }
   });
 
-  // dropDownList.addEventListener("mouseleave", (e) => {
-  //   console.log(e.relatedTarget)
-  //   if (e.relatedTarget !== menu__element) {
-  //     dropDownList.classList.toggle("dropdown__list--visible");
-  //   }
-  // });
-
-  // dropDownBtn.addEventListener("mouseleave", (e) => {
-  //   console.log(e.relatedTarget)
-  //   if (e.relatedTarget !== menu__element) {
-  //     dropDownList.classList.toggle("dropdown__list--visible");
-  //   }
-  // });
-
-
-
   // Нажатие на Tab или Escape. Закрыть дропдаун
   document.addEventListener("keydown", function (e) {
     if (e.key === "Tab" || e.key === "Escape") {
@@ -101,7 +76,6 @@ document.querySelectorAll(".dropdown").forEach(function (dropDownWrapper) {
 // Slider 
 const swiper = new Swiper('.swiper', {
   direction: "horizontal",
-  // effect: 'coverflow',
   loop: true,
   navigation: {
     nextEl: ".swiper-button-next",
@@ -114,22 +88,29 @@ const swiper = new Swiper('.swiper', {
   watchSlidesProgress: true,
   speed: 300,
   additionalSlide: 1,
-  // const swiper = new Swiper(".swiper", {
-  //   direction: "horizontal",
-  //   loop: true,
-  //   navigation: {
-  //     nextEl: ".swiper-button-next",
-  //     prevEl: ".swiper-button-prev",
-  //   },
-  //   slidesPerView: 3,
-  //   centeredSlides: true,
-  //   watchSlidesProgress: true,
-  // });
+});
+
+const sliderHeaderGame = new Swiper('.tabs__nav', {
+  direction: "horizontal",
+  navigation: {
+    nextEl: ".tabs_nav__next",
+    prevEl: ".tabs_nav__prev",
+  },
+  speed: 300,
+  freeMode: true,
+  createElements: true,
+  // simulateTouch: false,
+  breakpoints: {
+    992: {
+      slidesPerView: 7,
+      navigation: false
+    },
+
+  }
 });
 
 // Tabs
 for (let i = 0; i < tabs__nav.length; i++) {
-  console.log('for')
   tabs__nav[i].addEventListener('click', () => {
     console.log('click')
     document.querySelector('.tabs__nav-item-active').classList.toggle('tabs__nav-item-active')

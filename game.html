@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BimareX</title>
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="./css/normalaze.css" />
     <link
@@ -36,14 +35,10 @@
                   <button class="dropdown__button">Other</button>
                   <ul class="dropdown__list">
                     <a href="./other/dao.html">
-                      <li class="dropdown__list-item" data-value="travel">
-                        DAO
-                      </li>
+                      <li class="dropdown-item">DAO</li>
                     </a>
                     <a href="./other/whitePaper.html">
-                      <li class="dropdown__list-item" data-value="lessons">
-                        White Paper
-                      </li>
+                      <li class="dropdown-item">White Paper</li>
                     </a>
                   </ul>
                   <input
@@ -61,7 +56,7 @@
             <div class="header__article">
               <button class="button">Connect Wallet</button>
               <div class="dropdown">
-                <button class="dropdown__button">English</button>
+                <button class="dropdown__button inner__btn">English</button>
                 <ul class="dropdown__list">
                   <li class="dropdown__list-item" data-value="travel">
                     English
@@ -91,45 +86,49 @@
         <div class="container">
           <div class="tabs__header">
             <div class="tabs__nav">
-              <span class="tabs_nav tabs_nav__prev"></span>
-              <span class="tabs_nav tabs_nav__next"></span>
-              <div class="tabs__scroll">
-                <div class="tabs__elements-scroll">
-                  <div class="tabs__nav-item">
-                    <div class="dropdown tab_dropdown">
-                      <button class="dropdown__button">Recruit Hero</button>
-                      <ul class="dropdown__list">
-                        <a href="./other/dao.html">
-                          <li class="dropdown__list-item" data-value="travel">
-                            Recruit Hero
-                          </li>
-                        </a>
-                        <a href="./other/whitePaper.html">
-                          <li class="dropdown__list-item" data-value="lessons">
-                            New Hero Auction
-                          </li>
-                        </a>
-                      </ul>
-                      <input
-                        type="text"
-                        name="select-category"
-                        value=""
-                        class="dropdown__input-hidden"
-                      />
-                    </div>
+              <div class="swiper-wrapper">
+                <div class="tabs__nav-item swiper-slide">
+                  <div class="dropdown tab_dropdown">
+                    <button class="dropdown__button">Recruit Hero</button>
+                    <ul class="dropdown__list">
+                      <a href="./other/dao.html">
+                        <li class="dropdown__list-item" data-value="travel">
+                          Recruit Hero
+                        </li>
+                      </a>
+                      <a href="./other/whitePaper.html">
+                        <li class="dropdown__list-item" data-value="lessons">
+                          New Hero Auction
+                        </li>
+                      </a>
+                    </ul>
+                    <input
+                      type="text"
+                      name="select-category"
+                      value=""
+                      class="dropdown__input-hidden"
+                    />
                   </div>
-                  <div class="tabs__nav-item">My Hero</div>
-                  <div class="tabs__nav-item">Adventure</div>
-                  <div class="tabs__nav-item">Extra Bonus</div>
-                  <div class="tabs__nav-item">Leaderboard</div>
-                  <div class="tabs__nav-item">Treasure Chest</div>
-                  <div class="tabs__nav-item">Inventory</div>
-                  <div class="tabs__nav-item tabs__nav-item-active">
-                    Challenger Competition
-                  </div>
+                </div>
+                <div class="tabs__nav-item swiper-slide">My Hero</div>
+                <div class="tabs__nav-item swiper-slide">Adventure</div>
+                <div class="tabs__nav-item swiper-slide">Extra Bonus</div>
+                <div class="tabs__nav-item swiper-slide">Leaderboard</div>
+                <div class="tabs__nav-item swiper-slide">Treasure Chest</div>
+                <div class="tabs__nav-item swiper-slide tabs__nav-item-active">
+                  Inventory
+                </div>
+                <div class="tabs__nav-item swiper-slide">
+                  Challenger Competition
                 </div>
               </div>
             </div>
+            <span class="tabs_nav tabs_nav__next"
+              ><img src="./img/whitePaper/backToIsActive.png" alt="}"
+            /></span>
+            <span class="tabs_nav tabs_nav__prev"
+              ><img src="./img/whitePaper/backTo.png" alt="{"
+            /></span>
           </div>
           <div class="tabs__content">
             <div class="tab">
@@ -869,14 +868,14 @@
                 </div>
               </div>
             </div>
-            <div class="tab">
+            <div class="tab tab-active">
               <div class="tab__content">
                 <div class="history__TreasureChest">
                   <div class="btn-icon">Inventory</div>
                 </div>
               </div>
             </div>
-            <div class="tab tab-active">
+            <div class="tab">
               <div class="tab__content">
                 <div class="challenger">
                   <div class="btn-icon">
@@ -1143,6 +1142,5 @@
       </div>
     </footer>
     <script src="./js/script.js"></script>
-    .
   </body>
 </html>

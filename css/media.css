@@ -74,6 +74,9 @@
   .challengerHeader__challenger:not(:first-child) {
     margin-left: 30px;
   }
+  .tabs_nav {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -229,16 +232,12 @@
     margin-left: 12px;
   }
 
-  .tabs {
-    padding-top: 94px;
-  }
-
   .tab__content {
     margin: 40px 0 79px;
   }
 
   .tabs__header::before {
-    bottom: 52px;
+    bottom: 70px;
   }
 
   .whitePaper__content::before {
@@ -338,7 +337,7 @@
     padding-right: 16px;
     padding-left: 16px;
     background-color: #141110;
-    background-image: url(/img/bg/bg_footer_mobile.png);
+    background-image: url(./../img/bg/bg_footer_mobile.png);
     background-size: 100% auto;
   }
 
@@ -357,7 +356,7 @@
   }
 
   .tabs__header::before {
-    bottom: 56px;
+    bottom: 73px;
   }
 
   .ultraBonus__content {
