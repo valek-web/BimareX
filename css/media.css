@@ -77,6 +77,20 @@
   .tabs_nav {
     display: block;
   }
+
+  .inventory__wrapper {
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 28px;
+  }
+
+  .inventory-box {
+    width: 94%;
+    margin: 0 auto;
+  }
+  .inventory-hero {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -380,5 +394,14 @@
 
   .challenger__box-btn {
     flex-direction: column;
+  }
+
+  .inventory-hero {
+    padding: 0 13px;
+    min-height: 500px;
+  }
+
+  .inventory-hero__store {
+    padding: 9px 18px;
   }
 }

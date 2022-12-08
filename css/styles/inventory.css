@@ -1,0 +1,187 @@
+.inventory__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inventory-box {
+  width: 486px;
+  height: 524px;
+  background: url(./../../img/game/inventory/right__Item.png) no-repeat 0 0;
+  background-size: 100% 100%;
+  position: relative;
+  padding: 50px 28px;
+  margin-top: 20px;
+}
+
+.inventory-box__text {
+  color: #f45250;
+  font-size: 14px;
+  border: 0;
+  background: transparent;
+  font-weight: 500;
+  font-family: Alegreya-Medium;
+}
+
+.inventory__title {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 330px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  color: #baa694;
+  font-weight: 700;
+  font-family: Alegreya-Bold;
+  background: url(./../../img/game/inventory/bg__title.png) no-repeat 0 0;
+  background-size: 100% 100%;
+}
+
+.inventory-hero {
+  width: 701px;
+  height: 1026px;
+  position: relative;
+  background: url(./../../img/game/inventory/bg__leftItems.png) no-repeat 0 0;
+  background-size: 100% 100%;
+  padding: 0 49px;
+}
+
+.inventory-hero .inventory__title {
+  transform: translateY(0) translateX(-50%);
+}
+
+.inventory-hero__header {
+  width: 257px;
+  height: 48px;
+  position: relative;
+  margin: 63px auto 29px;
+}
+
+.inventory-hero__header-btn {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  color: #b2856c;
+  font-weight: 700;
+  font-family: Alegreya-Bold;
+  background: url(./../../img/game/inventory/bg_btn.png) no-repeat 0 0;
+  background-size: 100% 100%;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.inventory-hero__store {
+  padding: 19px 28px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: url(./../../img/game/inventory/circle__store.png) no-repeat 50%
+    40px;
+}
+
+.inventory-hero__store-i:nth-child(2n) {
+  justify-self: flex-end;
+}
+
+.inventory-hero__store-i:not(:first-child),
+.inventory-hero__store-i:not(:nth-child(2)) {
+  margin-top: 26px;
+}
+
+.inventory-hero__footer-title {
+  text-align: center;
+  color: #b2856c;
+  font-size: 16px;
+}
+
+.inventory-hero-cont .corner {
+  display: block;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+}
+
+.inventory-hero-cont img:nth-child(1) {
+  top: 8px;
+  left: 8px;
+}
+
+.inventory-hero-cont img:nth-child(1) {
+  top: 8px;
+  left: 8px;
+}
+
+.inventory-hero-cont img:nth-child(2) {
+  top: 8px;
+  right: 8px;
+  transform: rotateZ(90deg);
+}
+
+.inventory-hero-cont img:nth-child(3) {
+  bottom: 8px;
+  left: 8px;
+  transform: rotateZ(-90deg);
+}
+
+.inventory-hero-cont img:nth-child(4) {
+  bottom: 8px;
+  right: 8px;
+  transform: rotateZ(180deg);
+}
+
+.border__mail {
+  display: block;
+  position: absolute;
+}
+
+.border__top {
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.border__bottom {
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%) translateY(65%);
+}
+
+.inventory-hero-cont {
+  margin: 25px 0 0;
+  background: url(./../../img/game/inventory/sub_bgleft.png) no-repeat 50%;
+  background-size: cover;
+  color: #482d2d;
+  min-height: 320px;
+  padding: 40px;
+  position: relative;
+}
+
+.inventory-hero-skills {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 17px 0 17px 0;
+}
+
+.inventory-hero-skills:last-child {
+  border-top: solid 1px #482d2d1e;
+}
+
+.inventory-hero-skill {
+  display: flex;
+  align-items: center;
+  color: #482d2d;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Alegreya-Bold;
+  white-space: nowrap;
+}
+
+.inventory-hero-skill img {
+  margin-right: 8px;
+}
