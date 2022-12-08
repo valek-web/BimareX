@@ -294,7 +294,7 @@ body {
   border-bottom: none;
 }
 
-.dropdown__list-item:hover {
+.header.dropdown__list-item:hover {
   background: #efefef;
 }
 
@@ -432,14 +432,14 @@ body {
   padding: 50px 0 50px 0;
 }
 
-.hero.swiper {
+.hero .swiper {
   max-width: 942px;
   margin-top: 88px;
   min-height: 643px;
   overflow-y: auto;
 }
 
-.hero.swiper-slide {
+.hero .swiper-slide {
   min-height: 598px;
   width: 450px;
   background: url(./../img/bg/index_bg2.png) no-repeat 50%;
@@ -452,15 +452,15 @@ body {
   transform: scale(0.88);
 }
 
-.hero.swiper-slide-next,
-.hero.swiper-slide-duplicate-next {
+.hero .swiper-slide-next,
+.hero .swiper-slide-duplicate-next {
   transition: 0.3s all;
   transform: translateX(-50%);
   opacity: 0.5;
 }
 
-.hero.swiper-slide-prev,
-.hero.swiper-slide-duplicate-prev {
+.hero .swiper-slide-prev,
+.hero .swiper-slide-duplicate-prev {
   transition: 0.3s all;
   transform: translateX(50%);
   opacity: 0.5;
@@ -471,28 +471,28 @@ body {
   max-height: 85%;
 }
 
-.hero.swiper-slide-active {
+.hero .swiper-slide-active {
   opacity: 1;
   transform: scale(1.1);
   /* width: 450px; */
   z-index: 1;
 }
 
-.hero.swiper-button-prev {
+.hero .swiper-button-prev {
   width: 40px;
   height: 40px;
 }
 
-.hero.swiper-button-next {
+.hero .swiper-button-next {
   width: 40px;
   height: 40px;
 }
 
-.hero.swiper-button-next::after {
+.hero .swiper-button-next::after {
   display: none;
 }
 
-.hero.swiper-button-prev::after {
+.hero .swiper-button-prev::after {
   display: none;
 }
 
@@ -661,6 +661,7 @@ body {
 
 .dao {
   margin: 124px 0 100px 0;
+  font-family: Alegreya-Bold;
 }
 
 .dao_info-item {
@@ -746,20 +747,44 @@ body {
 
 .dao_proposal {
   display: flex;
-  justify-content: space-between;
-  width: 130px;
+  justify-content: flex-start;
   align-items: center;
   font-size: 18px;
   color: #b2856c;
   cursor: pointer;
+  font-family: Alegreya-Bold;
+}
+
+.dao_status__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Alegreya-Bold;
+}
+
+.dao_subproposal {
+  display: flex;
+  align-items: center;
+}
+
+.dao_subproposal .dao_proposal {
+  margin-right: 10px;
+}
+
+.dao_proposal img {
+  margin-right: 10px;
 }
 
 .dao_status-titles {
   position: relative;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   margin-top: 20px;
-  max-width: 320px;
+  max-width: 100%;
+}
+
+.dao_status-option:not(:first-child) {
+  margin-left: 20px;
 }
 
 .dao_status-line {
@@ -773,10 +798,24 @@ body {
 .dao_status-option {
   color: #b2856c;
   background: transparent;
-  margin-right: 20px;
   text-align: center;
   font-family: IBMPlexSans-Regular;
   cursor: pointer;
+}
+
+.dao_status-option:hover {
+  background: #372820;
+  border-radius: 4px;
+  color: #b2856c;
+}
+
+.dao_status-data {
+  text-align: center;
+  color: #b2856c;
+  font-size: 16px;
+  padding: 30px 0;
+  text-align: center;
+  font-family: IBMPlexSans-Regular;
 }
 
 .activeOption {
@@ -974,7 +1013,7 @@ body {
 
 .tabs {
   max-width: 100%;
-  padding: 182px 0 13px;
+  padding: 117px 0 13px;
   min-height: 40vh;
 }
 
@@ -982,7 +1021,9 @@ body {
   background: transparent;
   margin-bottom: 0;
   position: relative;
-  height: 80px;
+  height: 202px;
+  padding-top: 65px;
+  overflow: hidden;
 }
 
 .tabs__header::before {
@@ -991,13 +1032,12 @@ body {
   max-width: 88.5%;
   height: 66px;
   position: absolute;
-  bottom: 66px;
+  bottom: 121px;
   left: 0;
   right: 0;
   margin: auto;
   background: url(./../img/bg/bg_tabsBtn.png) no-repeat bottom;
   background-size: 100% auto;
-  z-index: 2;
 }
 
 .tabs__header::after {
@@ -1006,13 +1046,12 @@ body {
   max-width: 72%;
   height: 26px;
   position: absolute;
-  bottom: 7px;
+  bottom: 61px;
   left: 0;
   right: 0;
   margin: auto;
   background: url(./../img/bg/bg_bottom_tabsBtn.png) no-repeat 50%;
   background-size: 100% auto;
-  z-index: 2;
 }
 
 .tabs__nav {
@@ -1025,7 +1064,9 @@ body {
     rgba(24, 18, 18, 0) 100%
   );
   height: 62px;
-  /* overflow-x: hidden; */
+  /* overflow-x: hidden;
+  overflow-y: visible !important; */
+
   padding: 0 20px;
   max-width: 1100px;
   margin: 0 auto;
@@ -1045,7 +1086,8 @@ body {
   align-items: center;
 } */
 
-.tabs__nav-item {
+.tabs__nav-item,
+.tabs__nav-itemDD {
   outline: none;
   margin: 11px 0;
   height: 40px;
@@ -1134,10 +1176,35 @@ body {
 }
 
 .tab__content {
-  margin: 80px auto 288px;
+  margin: 20px auto 288px;
   position: relative;
   min-height: 500px;
   max-width: 1200px;
+}
+
+.tabs .dropdown__list {
+  font-weight: 700;
+  font-family: Alegreya-Bold;
+  font-size: 14px;
+  background: #564135;
+  width: 200px;
+  border-radius: 0;
+}
+
+.tabs .dropdown__list .box__list .tabs__nav-item {
+  color: #b2856c;
+  height: 40px;
+  text-shadow: none;
+  border-radius: 0;
+  text-align: left;
+  padding: 12px 11px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.box__list .tabs__nav-item-active {
+  background: #372820;
 }
 
 .recruitHero {

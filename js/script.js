@@ -88,6 +88,7 @@ const swiper = new Swiper('.swiper', {
   watchSlidesProgress: true,
   speed: 300,
   additionalSlide: 1,
+  autoplay: true
 });
 
 const sliderHeaderGame = new Swiper('.tabs__nav', {
@@ -99,10 +100,9 @@ const sliderHeaderGame = new Swiper('.tabs__nav', {
   speed: 300,
   freeMode: true,
   createElements: true,
-  // simulateTouch: false,
   breakpoints: {
     992: {
-      slidesPerView: 7,
+      slidesPerView: 1,
       navigation: false
     },
 

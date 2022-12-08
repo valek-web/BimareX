@@ -1,0 +1,131 @@
+.heroDividend__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #b2856c;
+  font-family: Alegreya-Bold;
+  text-align: right;
+}
+
+.heroDividend__wrapper-c {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heroDividend-box {
+  max-width: 555px;
+  width: 500px;
+  height: 300px;
+  position: relative;
+  margin: 52px 0;
+  border: 1px solid #998774;
+  border-radius: 8px;
+  background: radial-gradient(
+    72.53% 72.53% at 50% 50%,
+    #291a18 0,
+    rgba(41, 26, 24, 0) 100%
+  );
+}
+
+.heroDividend-box__title {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%) translateY(-50%);
+  background: url(./../../img/game/bg__title.png) no-repeat;
+  background-size: 100% 100%;
+  padding: 0 12px;
+  min-width: 170px;
+  width: 330px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #baa694;
+  font-size: 18px;
+  z-index: 1;
+}
+
+.heroDividend-box__corner {
+  display: block;
+  position: absolute;
+}
+
+.heroDividend-box__corner:nth-child(2) {
+  left: -16px;
+  top: -16px;
+}
+.heroDividend-box__corner:nth-child(3) {
+  right: -16px;
+  top: -16px;
+  transform: rotateZ(90deg);
+}
+
+.heroDividend-box__corner:nth-child(4) {
+  right: -16px;
+  bottom: -16px;
+  transform: rotateZ(180deg);
+}
+
+.heroDividend-box__corner:nth-child(5) {
+  left: -16px;
+  bottom: -16px;
+  transform: rotateZ(-90deg);
+}
+
+.heroDividend-box__circle {
+  width: 268px;
+  height: 112px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.heroDividend-box__circle img {
+  width: 268px;
+  position: absolute;
+  left: -81px;
+}
+
+.heroDividend-box__text {
+  padding: 70px 0 40px;
+  font-weight: 700;
+  line-height: 22px;
+  font-size: 32px;
+  color: #b2856c;
+  margin-bottom: 4px;
+  font-family: Alegreya-Bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 76px;
+}
+
+.heroDividend-box__textT {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.heroDividend-box__button {
+  display: block;
+  width: 76%;
+  margin: 0 auto;
+  height: 48px;
+  background: url(./../../img/game/bg-red_btn.png) no-repeat;
+  background-size: 100% 100%;
+  font-weight: 700;
+  font-family: Alegreya-Bold;
+  color: #b2856c;
+  font-size: 16px;
+}
+
+.heroDividend__footer-d {
+  font-size: 14px;
+  line-height: 20px;
+  color: #998774;
+  border: 1px dashed #998774;
+  box-sizing: border-box;
+  border-radius: 12px;
+  padding: 30px 0;
+  text-align: center;
+}

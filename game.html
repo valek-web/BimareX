@@ -87,20 +87,20 @@
           <div class="tabs__header">
             <div class="tabs__nav">
               <div class="swiper-wrapper">
-                <div class="tabs__nav-item swiper-slide">
+                <div class="tabs__nav-itemDD swiper-slide">
                   <div class="dropdown tab_dropdown">
                     <button class="dropdown__button">Recruit Hero</button>
                     <ul class="dropdown__list">
-                      <a href="./other/dao.html">
-                        <li class="dropdown__list-item" data-value="travel">
+                      <div class="box__list">
+                        <li class="tabs__nav-item" data-value="travel">
                           Recruit Hero
                         </li>
-                      </a>
-                      <a href="./other/whitePaper.html">
-                        <li class="dropdown__list-item" data-value="lessons">
+                      </div>
+                      <div class="box__list">
+                        <li class="tabs__nav-item" data-value="lessons">
                           New Hero Auction
                         </li>
-                      </a>
+                      </div>
                     </ul>
                     <input
                       type="text"
@@ -112,12 +112,35 @@
                 </div>
                 <div class="tabs__nav-item swiper-slide">My Hero</div>
                 <div class="tabs__nav-item swiper-slide">Adventure</div>
-                <div class="tabs__nav-item swiper-slide">Extra Bonus</div>
+                <div class="tabs__nav-itemDD swiper-slide">
+                  <div class="dropdown tab_dropdown">
+                    <button class="dropdown__button">Extra Bonus</button>
+                    <ul class="dropdown__list">
+                      <div class="box__list">
+                        <li class="tabs__nav-item" data-value="travel">
+                          Gold Mining
+                        </li>
+                      </div>
+                      <div class="box__list">
+                        <li
+                          class="tabs__nav-item tabs__nav-item-active"
+                          data-value="lessons"
+                        >
+                          Hero Dividend
+                        </li>
+                      </div>
+                    </ul>
+                    <input
+                      type="text"
+                      name="select-category"
+                      value=""
+                      class="dropdown__input-hidden"
+                    />
+                  </div>
+                </div>
                 <div class="tabs__nav-item swiper-slide">Leaderboard</div>
                 <div class="tabs__nav-item swiper-slide">Treasure Chest</div>
-                <div class="tabs__nav-item swiper-slide tabs__nav-item-active">
-                  Inventory
-                </div>
+                <div class="tabs__nav-item swiper-slide">Inventory</div>
                 <div class="tabs__nav-item swiper-slide">
                   Challenger Competition
                 </div>
@@ -151,6 +174,122 @@
                     <div class="recruitHero__name">--</div>
                     <div class="recruitHero__title">Get your hero now</div>
                     <div class="recruitHero__btn">Authorize</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab">
+              <div class="tab__content">
+                <div class="newHeroAuction">
+                  <div class="newHeroAuction__wrapper">
+                    <div class="hero">
+                      <div class="swiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <img src="./img/slider/hero1.png" alt="hero" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./img/slider/hero2.png" alt="hero" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./img/slider/hero3.png" alt="hero" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./img/slider/hero4.png" alt="hero" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./img/slider/hero5.png" alt="hero" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./img/slider/hero6.png" alt="hero" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./img/slider/hero7.png" alt="hero" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./img/slider/hero8.png" alt="hero" />
+                          </div>
+                        </div>
+                        <div class="swiper-button-prev">
+                          <img src="./img/slider/prev.png" alt="{" />
+                        </div>
+                        <div class="swiper-button-next">
+                          <img src="./img/slider/next.png" alt="}" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="hero-info">
+                      <div class="hero-info__title">New Hero Auction</div>
+                      <div class="hero-info__warning">
+                        Auction will be opened randomly every Monday from
+                        00:00-00:00 (Local Time Zone), and the number of new
+                        heroes in each round is 0.
+                      </div>
+                      <div class="hero-info__box-I">
+                        <div class="hero-info__box-T">Bid Price</div>
+                        <div class="hero-info__box">
+                          <input
+                            type="text"
+                            class="hero-info-in_bnx"
+                            value="0"
+                          />
+                          <div class="hero-info__pI">+</div>
+                          <input
+                            type="text"
+                            class="hero-info-in_usd"
+                            value="0"
+                          />
+                        </div>
+                      </div>
+                      <div class="hero-info__prices">
+                        <div class="hero-info__price">
+                          <div>Avl.</div>
+                          <div class="hero-info__price-rt">Deposit</div>
+                        </div>
+                        <div class="hero-info__price">
+                          <div>BNX</div>
+                          <div>0</div>
+                        </div>
+                        <div class="hero-info__price">
+                          <div>BUSD</div>
+                          <div>0</div>
+                        </div>
+                      </div>
+                      <button class="hero-info__button">Bidding</button>
+                      <div class="hero-info__subwarning">
+                        Please deposit on the official page, don't directly
+                        deposit to the on-chain contract, it will not charge to
+                        your account and withdraw in the future.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="dao_status">
+                    <div class="dao_proposal">
+                      <img src="./img/dao/proposal.png" />
+                      PROPOSAL
+                    </div>
+
+                    <div class="dao_status-titles">
+                      <div class="dao_status-option activeOption">
+                        Your Record
+                      </div>
+                      <div class="dao_status-option">Winning Bids</div>
+                      <div class="dao_status-option">Cancelled Bids</div>
+                      <div class="dao_status-option">Funding History</div>
+                      <div class="dao_status-option">Winning Hero</div>
+                    </div>
+                    <div class="dao_status-line"></div>
+                    <div class="dao_status-data">No data</div>
+                  </div>
+                  <div class="dao_status">
+                    <div class="dao_proposal">
+                      <img src="./img/dao/proposal.png" />
+                      Public Info
+                    </div>
+
+                    <div class="dao_status-titles"></div>
+                    <div class="dao_status-line"></div>
+                    <div class="dao_status-data">No data</div>
                   </div>
                 </div>
               </div>
@@ -568,6 +707,132 @@
                 </div>
               </div>
             </div>
+            <div class="tab tab-active">
+              <div class="tab__content">
+                <div class="heroDividend">
+                  <div class="heroDividend__content">
+                    <div class="heroDividend__title">
+                      Accumulated numbers of BNX dividends：0 BNX
+                    </div>
+                    <div class="heroDividend__wrapper-c">
+                      <div class="heroDividend-box">
+                        <div class="heroDividend-box__title">Claim Rewards</div>
+                        <img
+                          src="./img/corner.png"
+                          alt="#"
+                          class="heroDividend-box__corner"
+                        />
+                        <img
+                          src="./img/corner.png"
+                          alt="#"
+                          class="heroDividend-box__corner"
+                        />
+                        <img
+                          src="./img/corner.png"
+                          alt="#"
+                          class="heroDividend-box__corner"
+                        />
+                        <img
+                          src="./img/corner.png"
+                          alt="#"
+                          class="heroDividend-box__corner"
+                        />
+                        <div class="heroDividend-box__circle">
+                          <img src="./img/game/circle__store.png" alt="#" />
+                        </div>
+
+                        <div class="heroDividend-box__data">
+                          <div class="heroDividend-box__text">
+                            <div class="heroDividend-box__textL">
+                              <div class="heroDividend-box__textT">
+                                Stake NFT
+                              </div>
+                              0 NFT
+                            </div>
+                            <div class="heroDividend-box__textR">
+                              <div class="heroDividend-box__textT">
+                                The Total Weight
+                              </div>
+                              0
+                            </div>
+                          </div>
+                        </div>
+                        <button class="heroDividend-box__button">
+                          Claim Reward
+                        </button>
+                      </div>
+                      <div class="heroDividend-box">
+                        <div class="heroDividend-box__title">Claim Rewards</div>
+                        <img
+                          src="./img/corner.png"
+                          alt="#"
+                          class="heroDividend-box__corner"
+                        />
+                        <img
+                          src="./img/corner.png"
+                          alt="#"
+                          class="heroDividend-box__corner"
+                        />
+                        <img
+                          src="./img/corner.png"
+                          alt="#"
+                          class="heroDividend-box__corner"
+                        />
+                        <img
+                          src="./img/corner.png"
+                          alt="#"
+                          class="heroDividend-box__corner"
+                        />
+                        <div class="heroDividend-box__circle">
+                          <img src="./img/game/circle__store.png" alt="#" />
+                        </div>
+
+                        <div class="heroDividend-box__data">
+                          <div class="heroDividend-box__text">
+                            <div class="heroDividend-box__textL">
+                              <div class="heroDividend-box__textT">
+                                Claimable (BNX)
+                              </div>
+                              0.0000
+                            </div>
+                            <div class="heroDividend-box__textR">
+                              <div class="heroDividend-box__textT">
+                                Claimed (BNX)
+                              </div>
+                              0.0000
+                            </div>
+                          </div>
+                        </div>
+                        <button class="heroDividend-box__button">
+                          Claim Reward
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="heroDividend__footer">
+                    <div class="dao_status">
+                      <div class="dao_status__wrapper">
+                        <div class="dao_proposal">
+                          <img src="./img/dao/proposal.png" />
+                          NFT Staking Record
+                        </div>
+                        <div class="dao_subproposal">
+                          <div class="dao_proposal">Switch Data Source</div>
+                          <div class="dao_proposal">My Weight：0</div>
+                        </div>
+                      </div>
+
+                      <div class="dao_status-titles"></div>
+                      <div class="dao_status-line"></div>
+                      >
+                    </div>
+                    <div class="heroDividend__footer-d">
+                      No position for now
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div class="tab">
               <div class="tab__content">
                 <div class="leaderboard">
@@ -868,7 +1133,7 @@
                 </div>
               </div>
             </div>
-            <div class="tab tab-active">
+            <div class="tab">
               <div class="tab__content">
                 <div class="inventory">
                   <div class="inventory__wrapper">

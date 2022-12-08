@@ -91,6 +91,13 @@
   .inventory-hero {
     width: 100%;
   }
+
+  .newHeroAuction__wrapper {
+    flex-direction: column;
+  }
+  .heroDividend-box {
+    max-width: 340px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -195,11 +202,11 @@
     margin: 32px 15px 0;
   }
 
-  .swiper {
+  .hero .swiper {
     min-height: 365px;
   }
 
-  .swiper-slide {
+  .hero .swiper-slide {
     min-height: 310px;
   }
 
@@ -251,7 +258,12 @@
   }
 
   .tabs__header::before {
-    bottom: 70px;
+    bottom: 126px;
+    background-size: 456px auto;
+  }
+
+  .tabs__header::after {
+    background-size: 456px auto;
   }
 
   .whitePaper__content::before {
@@ -291,6 +303,13 @@
   .challengerHeader__subtitle {
     position: static;
     transform: none;
+  }
+  .hero {
+    padding: 0 0 30px 0;
+  }
+
+  .heroDividend__wrapper-c {
+    flex-direction: column;
   }
 }
 
@@ -369,10 +388,6 @@
     word-break: break-all;
   }
 
-  .tabs__header::before {
-    bottom: 73px;
-  }
-
   .ultraBonus__content {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -403,5 +418,26 @@
 
   .inventory-hero__store {
     padding: 9px 18px;
+  }
+
+  .hero-info__box {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 8px;
+  }
+  .dao_status-titles {
+    flex-wrap: wrap;
+  }
+
+  .dao_status-option {
+    margin-top: 6px;
+  }
+
+  .heroDividend-box {
+    max-width: 100%;
+    margin: 32px 0;
+  }
+  .dao_status__wrapper {
+    flex-wrap: wrap;
   }
 }
