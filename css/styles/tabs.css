@@ -1,0 +1,178 @@
+.tabs {
+  max-width: 100%;
+  padding: 117px 0 13px;
+  min-height: 40vh;
+}
+
+.tabs__header {
+  background: transparent;
+  margin-bottom: 0;
+  position: relative;
+  height: 202px;
+  padding-top: 65px;
+  overflow: hidden;
+}
+
+.tabs__header::before {
+  content: "";
+  width: 800px;
+  max-width: 88.5%;
+  height: 66px;
+  position: absolute;
+  bottom: 121px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: url(./../../img/bg/bg_tabsBtn.png) no-repeat bottom;
+  background-size: 100% auto;
+}
+
+.tabs__header::after {
+  content: "";
+  width: 600px;
+  max-width: 72%;
+  height: 26px;
+  position: absolute;
+  bottom: 61px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: url(./../../img/bg/bg_bottom_tabsBtn.png) no-repeat 50%;
+  background-size: 100% auto;
+}
+
+.tabs__nav {
+  justify-content: center;
+  display: flex;
+  background: radial-gradient(
+    43.47% 7718.51% at 50% 100%,
+    #2c1a1a 0,
+    rgba(41, 27, 27, 0.61) 86.48%,
+    rgba(24, 18, 18, 0) 100%
+  );
+  height: 62px;
+  padding: 0 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.tabs__nav-item,
+.tabs__nav-itemDD {
+  outline: none;
+  margin: 11px 0;
+  height: 40px;
+  line-height: 40px;
+  white-space: nowrap;
+  padding: 0 12px;
+  font-size: 18px;
+  color: #b2856c;
+  font-weight: 700;
+  font-family: Alegreya-Bold;
+  cursor: pointer;
+  transition: 0.3s all;
+  text-align: center;
+  width: auto !important;
+}
+
+.tabs__nav-item-active {
+  background: url(./../../img/bg/bg_gameBtn.png) no-repeat 50%;
+  background-size: 100% 100%;
+  text-shadow: 0 3px 4px rgb(10 7 2 / 97%);
+}
+
+.tabs__nav-item:hover {
+  transform: translateY(-3px);
+}
+
+.tabs_nav {
+  display: none;
+  top: 30%;
+  width: 16px;
+  height: 16px;
+  z-index: 3;
+}
+
+.tabs_nav__next {
+  position: absolute;
+  right: -21px;
+}
+
+.tabs_nav__next img {
+  transform: rotateZ(180deg);
+}
+
+.tabs_nav__prev {
+  position: absolute;
+  left: -21px;
+}
+
+.tab_dropdown {
+  background: rgba(0, 0, 0, 0);
+}
+
+.tab_dropdown .dropdown__button {
+  outline: none;
+  height: 40px;
+  line-height: 40px;
+  white-space: nowrap;
+  font-size: 18px;
+  color: #b2856c;
+  font-weight: 700;
+  font-family: Alegreya-Bold;
+  cursor: pointer;
+  transition: 0.3s all;
+  min-width: 130px;
+}
+
+.tab_dropdown .dropdown__button::before {
+  border: 5px solid transparent;
+  margin: 0;
+  border-left: 7px solid #a07a67;
+  height: 0;
+  background-color: #fff0;
+  top: 47%;
+  transform: rotateZ(91deg);
+}
+.tab_dropdown .dropdown__button::after {
+  display: none;
+}
+
+.tab {
+  display: none;
+}
+
+.tab-active {
+  display: block;
+}
+
+.tab__content {
+  margin: 20px auto 288px;
+  position: relative;
+  min-height: 500px;
+  max-width: 1200px;
+}
+
+.tabs .dropdown__list {
+  font-weight: 700;
+  font-family: Alegreya-Bold;
+  font-size: 14px;
+  background: #564135;
+  width: 200px;
+  border-radius: 0;
+}
+
+.tabs .dropdown__list .box__list .tabs__nav-item {
+  color: #b2856c;
+  height: 40px;
+  text-shadow: none;
+  border-radius: 0;
+  text-align: left;
+  padding: 12px 11px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.box__list .tabs__nav-item-active {
+  background: #372820;
+}

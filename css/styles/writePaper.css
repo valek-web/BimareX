@@ -1,0 +1,140 @@
+.whitePaper {
+  padding: 124px 0 126px;
+}
+
+.back {
+  display: flex;
+  cursor: pointer;
+}
+
+.back:hover .back__img {
+  background: url(./../../img/whitePaper/backToIsActive.png) no-repeat 0;
+  background-size: 24px 24px;
+}
+
+.back__img {
+  width: 28px;
+  height: 28px;
+  background: url(./../../img/whitePaper/backTo.png) no-repeat 0;
+  background-size: 24px 24px;
+}
+
+.back__text {
+  line-height: 28px;
+  font-size: 20px;
+  color: #b2856c;
+  font-weight: 800;
+  font-family: Alegreya-ExtraBold;
+  margin-left: 8px;
+}
+
+.whitePaper__content {
+  font-family: NotoSerif-Regular;
+  line-height: 20px;
+  font-size: 14px;
+  color: #b2856c;
+  max-width: 1200px;
+  width: 100%;
+  margin: 58px 0 0;
+  border: 1px solid #998774;
+  position: relative;
+  padding: 32px 40px 50px;
+  background: url(./../../img/bg/bg_whitePaper.png);
+}
+
+.whitePaper__content::before {
+  content: "";
+  position: absolute;
+  width: 446px;
+  height: 446px;
+  background: url(./../../img/bg/bg_frame.png) no-repeat 0;
+  background-size: auto;
+  background-size: 100% 100%;
+  bottom: -44px;
+  right: 0;
+}
+
+.corner {
+  position: absolute;
+}
+
+.topRight {
+  top: -19px;
+  right: -19px;
+  transform: rotateZ(90deg);
+}
+
+.topLeft {
+  top: -19px;
+  left: -19px;
+}
+
+.BottomRight {
+  bottom: -19px;
+  right: -19px;
+  transform: rotateZ(180deg);
+}
+
+.BottomLeft {
+  bottom: -19px;
+  left: -19px;
+  transform: rotateZ(-90deg);
+}
+
+.whitePaper__header {
+  font-size: 20px;
+  line-height: 28px;
+  font-family: NotoSerif-Bold;
+  font-weight: 700;
+  text-align: center;
+}
+
+.whitePaper__subtitle {
+  margin-top: 4px;
+}
+
+.paper-plane {
+  list-style-type: decimal;
+  font-size: 18px;
+  margin: 10px 0;
+  font-family: NotoSerif-Regular;
+}
+
+.paper-plane__item:not(:first-child) {
+  margin-top: 10px;
+}
+
+.subpaper-plane {
+  margin-left: 1em;
+  margin-top: 10px;
+}
+
+.whitePaper-box__title {
+  font-size: 18px;
+  margin: 30px 0;
+  font-family: NotoSerif-Regular;
+}
+
+.whitePaper-box__text {
+  font-family: NotoSerif-Regular;
+  line-height: 20px;
+  font-size: 14px;
+  color: #b2856c;
+  text-indent: 1em;
+}
+
+.whitePaper-box__list {
+  list-style-type: decimal;
+  font-family: NotoSerif-Regular;
+  line-height: 20px;
+  font-size: 14px;
+  color: #b2856c;
+  text-indent: 0;
+  padding-left: 2.1em;
+}
+
+.whitePaper__end {
+  font-size: 18px;
+  margin: 30px 0;
+  font-family: NotoSerif-Regular;
+}

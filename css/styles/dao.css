@@ -1,0 +1,170 @@
+/* dao */
+
+.dao {
+  margin: 124px 0 100px 0;
+  font-family: Alegreya-Bold;
+}
+
+.dao_info-item {
+  position: relative;
+  width: 268px;
+  height: 158px;
+  padding: 20px;
+  border: 1px solid #3f3832;
+}
+
+.dao_info-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.dao_info-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dao_info-item .sidebg-tl {
+  position: absolute;
+  top: -19px;
+  left: -18px;
+  width: 88px;
+}
+
+.dao_info-item .sidebg-tr {
+  position: absolute;
+  left: auto;
+  top: -18px;
+  right: -19px;
+  transform: rotate(90deg);
+}
+
+.dao_info-item .sidebg-bl {
+  position: absolute;
+  top: auto;
+  bottom: -18px;
+  left: -19px;
+  transform: rotate(-90deg);
+}
+
+.dao_info-item .sidebg-br {
+  position: absolute;
+  left: auto;
+  top: auto;
+  bottom: -19px;
+  right: -18px;
+  transform: rotate(-180deg);
+}
+
+.dao_info-item .sidebg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.dao_info-item-text {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #b2856c;
+  position: relative;
+  z-index: 1;
+  font-weight: 700;
+  font-family: Alegreya-Bold;
+}
+
+.dao-arrow img {
+  max-width: 72px;
+}
+
+.dao_status {
+  margin-top: 74px;
+}
+
+.dao_proposal {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 18px;
+  color: #b2856c;
+  cursor: pointer;
+  font-family: Alegreya-Bold;
+}
+
+.dao_status__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Alegreya-Bold;
+}
+
+.dao_subproposal {
+  display: flex;
+  align-items: center;
+}
+
+.dao_subproposal .dao_proposal {
+  margin-right: 10px;
+}
+
+.dao_proposal img {
+  margin-right: 10px;
+}
+
+.dao_status-titles {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+.dao_status-option:not(:first-child) {
+  margin-left: 20px;
+}
+
+.dao_status-line {
+  margin-top: 20px;
+  height: 13px;
+  background: url("./../../img/dao/dao-line.png") no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+}
+
+.dao_status-option {
+  color: #b2856c;
+  background: transparent;
+  text-align: center;
+  font-family: IBMPlexSans-Regular;
+  cursor: pointer;
+}
+
+.dao_status-option:hover {
+  background: #372820;
+  border-radius: 4px;
+  color: #b2856c;
+}
+
+.dao_status-data {
+  text-align: center;
+  color: #b2856c;
+  font-size: 16px;
+  padding: 30px 0;
+  text-align: center;
+  font-family: IBMPlexSans-Regular;
+}
+
+.activeOption {
+  background: #372820;
+  border-radius: 4px;
+  color: #b2856c;
+  min-width: 97px;
+  padding: 0 10px;
+  height: 28px;
+  cursor: pointer;
+}

@@ -38,12 +38,12 @@
   background: url(./../../img/game/bg__title.png) no-repeat 0 0;
   background-size: 100% 100%;
 }
-
+/* ./../../img/game/bg__leftItems.png */
 .inventory-hero {
   width: 701px;
   height: 1026px;
   position: relative;
-  background: url(./../../img/game/bg__leftItems.png) no-repeat 0 0;
+  background: url(./../../img/game/inventory/bg__leftItems.png) no-repeat 0 0;
   background-size: 100% 100%;
   padding: 0 49px;
 }

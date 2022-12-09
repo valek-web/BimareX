@@ -1,4 +1,17 @@
 @import "./body.css";
+@import "./styles/header.css";
+@import "./styles/banner.css";
+@import "./styles/scene.css";
+@import "./styles/hero.css";
+@import "./styles/toPlay.css";
+@import "./styles/bnx.css";
+@import "./styles/footer.css";
+@import "./styles/dao.css";
+@import "./styles/writePaper.css";
+@import "./styles/tabs.css";
+@import "./styles/recruitHero.css";
+@import "./styles/myHero.css";
+@import "./styles/title.css";
 @import "./styles/extraBonus.css";
 @import "./styles/leaderboard.css";
 @import "./styles/challenger.css";

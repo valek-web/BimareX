@@ -1,0 +1,85 @@
+.recruitHero {
+  width: 890px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+.recruitHero_bg {
+  height: 500px;
+  position: absolute;
+  top: 0;
+}
+
+.recruitHero .recruitHero_bg:nth-child(1) {
+  left: 0;
+}
+
+.recruitHero .recruitHero_bg:nth-child(2) {
+  right: 0;
+  transform: scale(-1, 1);
+}
+
+.recruitHero__content {
+  width: 280px;
+  height: 280px;
+  background: url(./../../img/bg/border__ava.png) no-repeat 50%;
+  background-size: 100% 100%;
+  line-height: 28px;
+  color: #d68c3f;
+  font-weight: 800;
+  font-size: 20px;
+  position: relative;
+}
+
+.recruitHero__ava {
+  width: 152px;
+  height: 152px;
+  margin: 0 auto;
+  margin: 42px auto 18px;
+}
+
+.recruitHero__name {
+  text-align: center;
+}
+
+.recruitHero__title {
+  position: absolute;
+  width: 360px;
+  height: 44px;
+  line-height: 44px;
+  background: url(./../../img/bg/border__avaTitle.png) no-repeat 50%;
+  background-size: 100% 100%;
+  color: #baa694;
+  font-size: 18px;
+  margin: auto;
+  z-index: 1;
+  top: -20px;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 700;
+  font-family: Alegreya-Bold;
+}
+
+.recruitHero__btn {
+  font-weight: 700;
+  font-family: Alegreya-Bold;
+  background: url(./../../img/bg/bg__buttonRed.png) no-repeat 50%;
+  background-size: 100% 100%;
+  color: #b2856c;
+  font-size: 16px;
+  position: absolute;
+  width: 192px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%) translateY(50%);
+  bottom: 0;
+}
