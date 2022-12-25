@@ -1,1 +1,1602 @@
-<!DOCTYPE html><html lang="en"> <head> <meta charset="UTF-8" /> <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <title>BimareX</title> <link rel="stylesheet" href="./css/normalaze.css" /> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" /> <link rel="stylesheet" href="./css/fonts.css" /> <link rel="stylesheet" href="./css/style.css" /> <link rel="stylesheet" href="./css/media.css" /> </head> <body> <header class="header"> <div class="header-box"> <div class="header__wrapper"> <nav class="header_nav"> <div class="header__logo"><img src="./img/logo.png" alt="" /></div> <ul class="menu"> <li class="menu__element"> <a href="./index.html">Home</a> </li> <li class="menu__element menu__elementDrop is_active"> <div class="dropdown menu_dropdown"> <button class="dropdown__button">Game</button> <ul class="dropdown__list"> <a href="./game.html"> <li class="dropdown-item">CyberDragon</li> </a> <a href="#"> <li class="dropdown-item"> CyberChess</li> </a> </ul> <input type="text" name="select-category" value="" class="dropdown__input-hidden" /> </div> </li> <li class="menu__element"><a href="#">Market</a></li> <li class="menu__element"><a href="./LiquidityMining.html">Liquidity Mining</a></li> <li class="menu__element"><a href="#">Game Wiki</a></li> <li class="menu__element menu__elementDrop"> <div class="dropdown menu_dropdown"> <button class="dropdown__button">Other</button> <ul class="dropdown__list"> <a href="./other/dao.html"> <li class="dropdown-item">DAO</li> </a> <a href="./other/whitePaper.html"> <li class="dropdown-item"> White Paper </li> </a> </ul> <input type="text" name="select-category" value="" class="dropdown__input-hidden" /> </div> </li> <div class="close-menu"> <img src="./img/icons/closeI.png" alt="Close"> </div> </ul> <div class="header__article"> <button class="button">Connect Wallet</button> <div class="dropdown"> <button class="dropdown__button inner__btn">English</button> <ul class="dropdown__list"> <li class="dropdown__list-item" data-value="travel">English</li> <li class="dropdown__list-item" data-value="lessons"> 繁體中文 </li> </ul> <input type="text" name="select-category" value="" class="dropdown__input-hidden" /> </div> </div> </nav> <div class="btn-icon" id="open_menu">Menu <img src="./img/icons/menuI.png" alt="#"></div> </div> </div> <div class="bg_activeM"> </div> </header> <main class="main"> <section class="tabs"> <div class="container"> <div class="tabs__header"> <div class="tabs__nav"> <div class="swiper-wrapper"> <div class="tabs__nav-itemDD swiper-slide"> <div class="dropdown tab_dropdown"> <button class="dropdown__button">Recruit Hero</button> <ul class="dropdown__list"> <div class="box__list"> <li class="tabs__nav-item" data-value="travel"> Recruit Hero </li> </div> <div class="box__list"> <li class="tabs__nav-item" data-value="lessons"> New Hero Auction </li> </div> </ul> <input type="text" name="select-category" value="" class="dropdown__input-hidden" /> </div> </div> <div class="tabs__nav-item swiper-slide">My Hero</div> <div class="tabs__nav-item swiper-slide">Adventure</div> <div class="tabs__nav-itemDD swiper-slide"> <div class="dropdown tab_dropdown"> <button class="dropdown__button">Extra Bonus</button> <ul class="dropdown__list"> <div class="box__list"> <li class="tabs__nav-item" data-value="travel"> Gold Mining </li> </div> <div class="box__list"> <li class="tabs__nav-item tabs__nav-item-active" data-value="lessons" > Hero Dividend </li> </div> </ul> <input type="text" name="select-category" value="" class="dropdown__input-hidden" /> </div> </div> <div class="tabs__nav-item swiper-slide">Leaderboard</div> <div class="tabs__nav-item swiper-slide">Treasure Chest</div> <div class="tabs__nav-item swiper-slide">Inventory</div> <div class="tabs__nav-item swiper-slide"> Challenger Competition </div> </div> </div> <span class="tabs_nav tabs_nav__next" ><img src="./img/whitePaper/backToIsActive.png" alt="}" /></span> <span class="tabs_nav tabs_nav__prev" ><img src="./img/whitePaper/backTo.png" alt="{" /></span> </div> <div class="tabs__content"> <div class="tab"> <div class="tab__content"> <div class="recruitHero"> <img src="./img/game/recruitHero/bg_window.png" alt="#" class="recruitHero_bg" /> <img src="./img/game/recruitHero/bg_window.png" alt="#" class="recruitHero_bg" /> <div class="recruitHero__content"> <div class="recruitHero__ava"> <img src="./img/game/recruitHero/ava.png" alt="#" /> </div> <div class="recruitHero__name">--</div> <div class="recruitHero__title">Get your hero now</div> <div class="recruitHero__btn">Authorize</div> </div> </div> </div> </div> <div class="tab"> <div class="tab__content"> <div class="newHeroAuction"> <div class="newHeroAuction__wrapper"> <div class="hero"> <div class="swiper"> <div class="swiper-wrapper"> <div class="swiper-slide"> <img src="./img/slider/hero1.png" alt="hero" /> </div> <div class="swiper-slide"> <img src="./img/slider/hero2.png" alt="hero" /> </div> <div class="swiper-slide"> <img src="./img/slider/hero3.png" alt="hero" /> </div> <div class="swiper-slide"> <img src="./img/slider/hero4.png" alt="hero" /> </div> <div class="swiper-slide"> <img src="./img/slider/hero5.png" alt="hero" /> </div> <div class="swiper-slide"> <img src="./img/slider/hero6.png" alt="hero" /> </div> <div class="swiper-slide"> <img src="./img/slider/hero7.png" alt="hero" /> </div> <div class="swiper-slide"> <img src="./img/slider/hero8.png" alt="hero" /> </div> </div> <div class="swiper-button-prev"> <img src="./img/slider/prev.png" alt="{" /> </div> <div class="swiper-button-next"> <img src="./img/slider/next.png" alt="}" /> </div> </div> </div> <div class="hero-info"> <div class="hero-info__title">New Hero Auction</div> <div class="hero-info__warning"> Auction will be opened randomly every Monday from 00:00-00:00 (Local Time Zone), and the number of new heroes in each round is 0. </div> <div class="hero-info__box-I"> <div class="hero-info__box-T">Bid Price</div> <div class="hero-info__box"> <input type="text" class="hero-info-in_bnx" value="0" /> <div class="hero-info__pI">+</div> <input type="text" class="hero-info-in_usd" value="0" /> </div> </div> <div class="hero-info__prices"> <div class="hero-info__price"> <div>Avl.</div> <div class="hero-info__price-rt">Deposit</div> </div> <div class="hero-info__price"> <div>BNX</div> <div>0</div> </div> <div class="hero-info__price"> <div>BUSD</div> <div>0</div> </div> </div> <button class="hero-info__button">Bidding</button> <div class="hero-info__subwarning"> Please deposit on the official page, don't directly deposit to the on-chain contract, it will not charge to your account and withdraw in the future. </div> </div> </div> <div class="dao_status"> <div class="dao_proposal"> <img src="./img/dao/proposal.png" /> PROPOSAL </div> <div class="dao_status-titles"> <div class="dao_status-option activeOption"> Your Record </div> <div class="dao_status-option">Winning Bids</div> <div class="dao_status-option">Cancelled Bids</div> <div class="dao_status-option">Funding History</div> <div class="dao_status-option">Winning Hero</div> </div> <div class="dao_status-line"></div> <div class="dao_status-data">No data</div> </div> <div class="dao_status"> <div class="dao_proposal"> <img src="./img/dao/proposal.png" /> Public Info </div> <div class="dao_status-titles"></div> <div class="dao_status-line"></div> <div class="dao_status-data">No data</div> </div> </div> </div> </div> <div class="tab"> <div class="tab__content"> <div class="myHero"> <div class="myHero__data"> <div class="myHero__header"> <div class="myHero__dropdown"> <div class="dropdown"> <button class="dropdown__button"> All <img src="./img/game/myHero/dropdown.png" alt="" /> </button> <ul class="dropdown__list"> <li class="dropdown__list-item" data-value="lessons" > All </li> <li class="dropdown__list-item" data-value="travel"> Dividend </li> <li class="dropdown__list-item" data-value="lessons" > Mining </li> </ul> <input type="text" name="select-category" value="" class="dropdown__input-hidden" /> </div> </div> <div class="myHero__button"> <div class="grid btn-active"> <div class="btn__box"> <span></span><span></span><span></span><span></span> </div> </div> <div class="lines"> <div class="btn__box"> <span></span><span></span><span></span> </div> </div> </div> </div> <div class="myHero__data">No data</div> </div> </div> </div> </div> <div class="tab"> <div class="tab__content"> <div class="history__adventure"> <div class="btn-icon"> History<img src="./img/icons/history.png" alt="#" /> </div> </div> </div> </div> <div class="tab"> <div class="tab__content"> <div class="ultraBonus"> <div class="ultraBonus__wrapper"> <div class="ultraBonus__article">Idle Hero</div> <div class="ultraBonus__content"> <div class="item"> <div class="item__title">Part-time Job</div> <div class="item__img"> <img src="./img/game/extraBM/1.png" alt="#" /> </div> <div class="item__reward"> <div class="item__rewardImg"> <img src="./img/game/extraBM/icon.png" alt="#" /> </div> </div> <div class="limit"> <div class="limit__header"> <img src="./img/game/extraBM/limit_icon.png" alt="#" /> <div class="limit__text">Lv. 1 and above</div> </div> <div class="limit__content"> <img src="./img/game/extraBM/limit_img.png" alt="" /> </div> </div> <div class="item__boxBtn"> <button class="item_btn">ready</button> </div> </div> <div class="item"> <div class="item__title">Part-time Job</div> <div class="item__img"> <img src="./img/game/extraBM/2.png" alt="#" /> </div> <div class="item__reward"> <div class="item__rewardImg"> <img src="./img/game/extraBM/icon.png" alt="#" /> </div> </div> <div class="limit"> <div class="limit__header"> <img src="./img/game/extraBM/limit_icon.png" alt="#" /> <div class="limit__text">Lv. 1 and above</div> </div> <div class="limit__content"> <img src="./img/game/extraBM/limit_img.png" alt="" /> </div> </div> <div class="item__boxBtn"> <button class="item_btn">ready</button> </div> </div> <div class="item"> <div class="item__title">Part-time Job</div> <div class="item__img"> <img src="./img/game/extraBM/3.png" alt="#" /> </div> <div class="item__reward"> <div class="item__rewardImg"> <img src="./img/game/extraBM/icon.png" alt="#" /> </div> </div> <div class="limit"> <div class="limit__header"> <img src="./img/game/extraBM/limit_icon.png" alt="#" /> <div class="limit__text">Lv. 1 and above</div> </div> <div class="limit__content"> <img src="./img/game/extraBM/limit_img.png" alt="" /> </div> </div> <div class="item__boxBtn"> <button class="item_btn">ready</button> </div> </div> <div class="item"> <div class="item__title">Part-time Job</div> <div class="item__img"> <img src="./img/game/extraBM/4.png" alt="#" /> </div> <div class="item__reward"> <div class="item__rewardImg"> <img src="./img/game/extraBM/icon.png" alt="#" /> </div> </div> <div class="limit"> <div class="limit__header"> <img src="./img/game/extraBM/limit_icon.png" alt="#" /> <div class="limit__text">Lv. 1 and above</div> </div> <div class="limit__content"> <img src="./img/game/extraBM/limit_img.png" alt="" /> </div> </div> <div class="item__boxBtn"> <button class="item_btn">ready</button> </div> </div> <div class="item"> <div class="item__title">Part-time Job</div> <div class="item__img"> <img src="./img/game/extraBM/5.png" alt="#" /> </div> <div class="item__reward"> <div class="item__rewardImg"> <img src="./img/game/extraBM/icon.png" alt="#" /> </div> </div> <div class="limit"> <div class="limit__header"> <img src="./img/game/extraBM/limit_icon.png" alt="#" /> <div class="limit__text">Lv. 1 and above</div> </div> <div class="limit__content"> <img src="./img/game/extraBM/limit_img.png" alt="" /> </div> </div> <div class="item__boxBtn"> <button class="item_btn">ready</button> </div> </div> <div class="item"> <div class="item__title">Part-time Job</div> <div class="item__img"> <img src="./img/game/extraBM/6.png" alt="#" /> </div> <div class="item__reward"> <div class="item__rewardImg"> <img src="./img/game/extraBM/icon.png" alt="#" /> </div> </div> <div class="limit"> <div class="limit__header"> <img src="./img/game/extraBM/limit_icon.png" alt="#" /> <div class="limit__text">Lv. 1 and above</div> </div> <div class="limit__content"> <img src="./img/game/extraBM/limit_img.png" alt="" /> </div> </div> <div class="item__boxBtn"> <button class="item_btn">ready</button> </div> </div> <div class="item"> <div class="item__title">Part-time Job</div> <div class="item__img"> <img src="./img/game/extraBM/7.png" alt="#" /> </div> <div class="item__reward"> <div class="item__rewardImg"> <img src="./img/game/extraBM/icon.png" alt="#" /> </div> </div> <div class="limit"> <div class="limit__header"> <img src="./img/game/extraBM/limit_icon.png" alt="#" /> <div class="limit__text">Lv. 1 and above</div> </div> <div class="limit__content"> <img src="./img/game/extraBM/limit_img.png" alt="" /> </div> </div> <div class="item__boxBtn"> <button class="item_btn">ready</button> </div> </div> <div class="item"> <div class="item__title">Part-time Job</div> <div class="item__img"> <img src="./img/game/extraBM/8.png" alt="#" /> </div> <div class="item__reward"> <div class="item__rewardImg"> <img src="./img/game/extraBM/icon.png" alt="#" /> </div> </div> <div class="limit"> <div class="limit__header"> <img src="./img/game/extraBM/limit_icon.png" alt="#" /> <div class="limit__text">Lv. 1 and above</div> </div> <div class="limit__content"> <img src="./img/game/extraBM/limit_img.png" alt="" /> </div> </div> <div class="item__boxBtn"> <button class="item_btn">ready</button> </div> </div> <div class="item"> <div class="item__title">Part-time Job</div> <div class="item__img"> <img src="./img/game/extraBM/9.png" alt="#" /> </div> <div class="item__reward"> <div class="item__rewardImg"> <img src="./img/game/extraBM/icon.png" alt="#" /> </div> </div> <div class="limit"> <div class="limit__header"> <img src="./img/game/extraBM/limit_icon.png" alt="#" /> <div class="limit__text">Lv. 1 and above</div> </div> <div class="limit__content"> <img src="./img/game/extraBM/limit_img.png" alt="" /> </div> </div> <div class="item__boxBtn"> <button class="item_btn">ready</button> </div> </div> <div class="item"> <div class="item__title">Part-time Job</div> <div class="item__img"> <img src="./img/game/extraBM/10.png" alt="#" /> </div> <div class="item__reward"> <div class="item__rewardImg"> <img src="./img/game/extraBM/icon.png" alt="#" /> </div> </div> <div class="limit"> <div class="limit__header"> <img src="./img/game/extraBM/limit_icon.png" alt="#" /> <div class="limit__text">Lv. 1 and above</div> </div> <div class="limit__content"> <img src="./img/game/extraBM/limit_img.png" alt="" /> </div> </div> <div class="item__boxBtn"> <button class="item_btn">ready</button> </div> </div> <div class="item"> <div class="item__title">Part-time Job</div> <div class="item__img"> <img src="./img/game/extraBM/11.png" alt="#" /> </div> <div class="item__reward"> <div class="item__rewardImg"> <img src="./img/game/extraBM/icon.png" alt="#" /> </div> </div> <div class="limit"> <div class="limit__header"> <img src="./img/game/extraBM/limit_icon.png" alt="#" /> <div class="limit__text">Lv. 1 and above</div> </div> <div class="limit__content"> <img src="./img/game/extraBM/limit_img.png" alt="" /> </div> </div> <div class="item__boxBtn"> <button class="item_btn">ready</button> </div> </div> <div class="item"> <div class="item__title">Part-time Job</div> <div class="item__img"> <img src="./img/game/extraBM/12.png" alt="#" /> </div> <div class="item__reward"> <div class="item__rewardImg"> <img src="./img/game/extraBM/icon.png" alt="#" /> </div> </div> <div class="limit"> <div class="limit__header"> <img src="./img/game/extraBM/limit_icon.png" alt="#" /> <div class="limit__text">Lv. 1 and above</div> </div> <div class="limit__content"> <img src="./img/game/extraBM/limit_img.png" alt="" /> </div> </div> <div class="item__boxBtn"> <button class="item_btn">ready</button> </div> </div> <div class="item"> <div class="item__title">Part-time Job</div> <div class="item__img"> <img src="./img/game/extraBM/13.png" alt="#" /> </div> <div class="item__reward"> <div class="item__rewardImg"> <img src="./img/game/extraBM/icon.png" alt="#" /> </div> </div> <div class="limit"> <div class="limit__header"> <img src="./img/game/extraBM/limit_icon.png" alt="#" /> <div class="limit__text">Lv. 1 and above</div> </div> <div class="limit__content"> <img src="./img/game/extraBM/limit_img.png" alt="" /> </div> </div> <div class="item__boxBtn"> <button class="item_btn">ready</button> </div> </div> </div> </div> </div> </div> </div> <div class="tab tab-active"> <div class="tab__content"> <div class="heroDividend"> <div class="heroDividend__content"> <div class="heroDividend__title"> Accumulated numbers of BNX dividends：0 BNX </div> <div class="heroDividend__wrapper-c"> <div class="heroDividend-box"> <div class="heroDividend-box__title">Claim Rewards</div> <img src="./img/corner.png" alt="#" class="heroDividend-box__corner" /> <img src="./img/corner.png" alt="#" class="heroDividend-box__corner" /> <img src="./img/corner.png" alt="#" class="heroDividend-box__corner" /> <img src="./img/corner.png" alt="#" class="heroDividend-box__corner" /> <div class="heroDividend-box__circle"> <img src="./img/game/circle__store.png" alt="#" /> </div> <div class="heroDividend-box__data"> <div class="heroDividend-box__text"> <div class="heroDividend-box__textL"> <div class="heroDividend-box__textT"> Stake NFT </div> 0 NFT </div> <div class="heroDividend-box__textR"> <div class="heroDividend-box__textT"> The Total Weight </div> 0 </div> </div> </div> <button class="heroDividend-box__button"> Claim Reward </button> </div> <div class="heroDividend-box"> <div class="heroDividend-box__title">Claim Rewards</div> <img src="./img/corner.png" alt="#" class="heroDividend-box__corner" /> <img src="./img/corner.png" alt="#" class="heroDividend-box__corner" /> <img src="./img/corner.png" alt="#" class="heroDividend-box__corner" /> <img src="./img/corner.png" alt="#" class="heroDividend-box__corner" /> <div class="heroDividend-box__circle"> <img src="./img/game/circle__store.png" alt="#" /> </div> <div class="heroDividend-box__data"> <div class="heroDividend-box__text"> <div class="heroDividend-box__textL"> <div class="heroDividend-box__textT"> Claimable (BNX) </div> 0.0000 </div> <div class="heroDividend-box__textR"> <div class="heroDividend-box__textT"> Claimed (BNX) </div> 0.0000 </div> </div> </div> <button class="heroDividend-box__button"> Claim Reward </button> </div> </div> </div> <div class="heroDividend__footer"> <div class="dao_status"> <div class="dao_status__wrapper"> <div class="dao_proposal"> <img src="./img/dao/proposal.png" /> NFT Staking Record </div> <div class="dao_subproposal"> <div class="dao_proposal">Switch Data Source</div> <div class="dao_proposal">My Weight：0</div> </div> </div> <div class="dao_status-titles"></div> <div class="dao_status-line"></div> > </div> <div class="heroDividend__footer-d"> No position for now </div> </div> </div> </div> </div> <div class="tab"> <div class="tab__content"> <div class="leaderboard"> <div class="leaderboard__wrapper"> <div class="leaderboard__top"> <img src="./img/game/leaderboard/border_top.png" alt="#" class="border__leaderboard" /><img src="./img/game/leaderboard/border__bottom.png" alt="#" class="border__leaderboard" /> <div class="heroItem"> <div class="heroItem__promo"> <div class="heroItem__place"> <img src="./img/game/leaderboard/1.png" alt="1" /> </div> <div class="heroItem__range"> <p>Mage</p> <p>Lv.9</p> </div> </div> <div class="heroItem__info"> <div class="heroItem__name"> <span class="heroItem__sutitle"> Name </span> <span class="heroItem__name">chief1</span> </div> <div class="heroItem__total"> <span class="heroItem__sutitle"> Total Attribute </span ><span class="heroItem__cont">452</span> </div> <div class="heroItem__score"> <span class="heroItem__sutitle"> Score </span ><span class="heroItem__cont">734</span> </div> </div> </div> <div class="heroItem"> <div class="heroItem__promo"> <div class="heroItem__place"> <img src="./img/game/leaderboard/2.png" alt="2" /> </div> <div class="heroItem__range"> <p>Mage</p> <p>Lv.9</p> </div> </div> <div class="heroItem__info"> <div class="heroItem__name"> <span class="heroItem__sutitle"> Name </span> <span class="heroItem__name">chief1</span> </div> <div class="heroItem__total"> <span class="heroItem__sutitle"> Total Attribute </span ><span class="heroItem__cont">452</span> </div> <div class="heroItem__score"> <span class="heroItem__sutitle"> Score </span ><span class="heroItem__cont">734</span> </div> </div> </div> <div class="heroItem"> <div class="heroItem__promo"> <div class="heroItem__place"> <img src="./img/game/leaderboard/3.png" alt="3" /> </div> <div class="heroItem__range"> <p>Mage</p> <p>Lv.9</p> </div> </div> <div class="heroItem__info"> <div class="heroItem__name"> <span class="heroItem__sutitle"> Name </span> <span class="heroItem__name">chief1</span> </div> <div class="heroItem__total"> <span class="heroItem__sutitle"> Total Attribute </span ><span class="heroItem__cont">452</span> </div> <div class="heroItem__score"> <span class="heroItem__sutitle"> Score </span ><span class="heroItem__cont">734</span> </div> </div> </div> </div> <div class="leaderboard__content"> <div class="heroItem"> <div class="heroItem__promo"> <div class="heroItem__place">1</div> <div class="heroItem__range"> <p>Mage</p> <p>Lv.9</p> </div> </div> <div class="heroItem__info"> <div class="heroItem__name"> <span class="heroItem__sutitle"> Name </span> <span class="heroItem__name">chief1</span> </div> <div class="heroItem__total"> <span class="heroItem__sutitle"> Total Attribute </span ><span class="heroItem__cont">452</span> </div> <div class="heroItem__score"> <span class="heroItem__sutitle"> Score </span ><span class="heroItem__cont">734</span> </div> </div> </div> <div class="heroItem"> <div class="heroItem__promo"> <div class="heroItem__place">1</div> <div class="heroItem__range"> <p>Mage</p> <p>Lv.9</p> </div> </div> <div class="heroItem__info"> <div class="heroItem__name"> <span class="heroItem__sutitle"> Name </span> <span class="heroItem__name">chief1</span> </div> <div class="heroItem__total"> <span class="heroItem__sutitle"> Total Attribute </span ><span class="heroItem__cont">452</span> </div> <div class="heroItem__score"> <span class="heroItem__sutitle"> Score </span ><span class="heroItem__cont">734</span> </div> </div> </div> <div class="heroItem"> <div class="heroItem__promo"> <div class="heroItem__place">1</div> <div class="heroItem__range"> <p>Mage</p> <p>Lv.9</p> </div> </div> <div class="heroItem__info"> <div class="heroItem__name"> <span class="heroItem__sutitle"> Name </span> <span class="heroItem__name">chief1</span> </div> <div class="heroItem__total"> <span class="heroItem__sutitle"> Total Attribute </span ><span class="heroItem__cont">452</span> </div> <div class="heroItem__score"> <span class="heroItem__sutitle"> Score </span ><span class="heroItem__cont">734</span> </div> </div> </div> <div class="heroItem"> <div class="heroItem__promo"> <div class="heroItem__place">1</div> <div class="heroItem__range"> <p>Mage</p> <p>Lv.9</p> </div> </div> <div class="heroItem__info"> <div class="heroItem__name"> <span class="heroItem__sutitle"> Name </span> <span class="heroItem__name">chief1</span> </div> <div class="heroItem__total"> <span class="heroItem__sutitle"> Total Attribute </span ><span class="heroItem__cont">452</span> </div> <div class="heroItem__score"> <span class="heroItem__sutitle"> Score </span ><span class="heroItem__cont">734</span> </div> </div> </div> <div class="heroItem"> <div class="heroItem__promo"> <div class="heroItem__place">1</div> <div class="heroItem__range"> <p>Mage</p> <p>Lv.9</p> </div> </div> <div class="heroItem__info"> <div class="heroItem__name"> <span class="heroItem__sutitle"> Name </span> <span class="heroItem__name">chief1</span> </div> <div class="heroItem__total"> <span class="heroItem__sutitle"> Total Attribute </span ><span class="heroItem__cont">452</span> </div> <div class="heroItem__score"> <span class="heroItem__sutitle"> Score </span ><span class="heroItem__cont">734</span> </div> </div> </div> <div class="heroItem"> <div class="heroItem__promo"> <div class="heroItem__place">1</div> <div class="heroItem__range"> <p>Mage</p> <p>Lv.9</p> </div> </div> <div class="heroItem__info"> <div class="heroItem__name"> <span class="heroItem__sutitle"> Name </span> <span class="heroItem__name">chief1</span> </div> <div class="heroItem__total"> <span class="heroItem__sutitle"> Total Attribute </span ><span class="heroItem__cont">452</span> </div> <div class="heroItem__score"> <span class="heroItem__sutitle"> Score </span ><span class="heroItem__cont">734</span> </div> </div> </div> <div class="heroItem"> <div class="heroItem__promo"> <div class="heroItem__place">1</div> <div class="heroItem__range"> <p>Mage</p> <p>Lv.9</p> </div> </div> <div class="heroItem__info"> <div class="heroItem__name"> <span class="heroItem__sutitle"> Name </span> <span class="heroItem__name">chief1</span> </div> <div class="heroItem__total"> <span class="heroItem__sutitle"> Total Attribute </span ><span class="heroItem__cont">452</span> </div> <div class="heroItem__score"> <span class="heroItem__sutitle"> Score </span ><span class="heroItem__cont">734</span> </div> </div> </div> <div class="heroItem"> <div class="heroItem__promo"> <div class="heroItem__place">1</div> <div class="heroItem__range"> <p>Mage</p> <p>Lv.9</p> </div> </div> <div class="heroItem__info"> <div class="heroItem__name"> <span class="heroItem__sutitle"> Name </span> <span class="heroItem__name">chief1</span> </div> <div class="heroItem__total"> <span class="heroItem__sutitle"> Total Attribute </span ><span class="heroItem__cont">452</span> </div> <div class="heroItem__score"> <span class="heroItem__sutitle"> Score </span ><span class="heroItem__cont">734</span> </div> </div> </div> </div> </div> </div> </div> </div> <div class="tab"> <div class="tab__content"> <div class="history__TreasureChest"> <div class="btn-icon"> History<img src="./img/icons/history.png" alt="#" /> </div> </div> </div> </div> <div class="tab"> <div class="tab__content"> <div class="inventory"> <div class="inventory__wrapper"> <div class="inventory-box"> <div class="inventory__title">Inventory</div> <div class="inventory-box__text">All</div> </div> <div class="inventory-hero"> <div class="inventory__title">Hero</div> <div class="inventory-hero__header"> <button class="inventory-hero__header-btn"> <span> Select you Hero</span> </button> </div> <div class="inventory-hero__store"> <div class="inventory-hero__store-i"> <img src="./img/game/inventory/iconF1.png" alt="#" /> </div> <div class="inventory-hero__store-i"> <img src="./img/game/inventory/iconF2.png" alt="#" /> </div> <div class="inventory-hero__store-i"> <img src="./img/game/inventory/iconF3.png" alt="#" /> </div> <div class="inventory-hero__store-i"> <img src="./img/game/inventory/iconF4.png" alt="#" /> </div> <div class="inventory-hero__store-i"> <img src="./img/game/inventory/iconF5.png" alt="#" /> </div> <div class="inventory-hero__store-i"> <img src="./img/game/inventory/iconF6.png" alt="#" /> </div> <div class="inventory-hero__store-i"> <img src="./img/game/inventory/iconF7.png" alt="#" /> </div> <div class="inventory-hero__store-i"> <img src="./img/game/inventory/iconF8.png" alt="#" /> </div> <div class="inventory-hero__store-i"> <img src="./img/game/inventory/iconF9.png" alt="#" /> </div> <div class="inventory-hero__store-i"> <img src="./img/game/inventory/iconF10.png" alt="#" /> </div> </div> <div class="inventory-hero__footer"> <div class="inventory-hero__footer-title">Score: 0</div> <div class="inventory-hero-cont"> <img src="./img/game/inventory/corner.png" alt="#" class="corner" /><img src="./img/game/inventory/corner.png" alt="#" class="corner" /><img src="./img/game/inventory/corner.png" alt="#" class="corner" /><img src="./img/game/inventory/corner.png" alt="#" class="corner" /> <img src="./img/game/inventory/bottom_border.png" alt="#" class="border__mail border__bottom" /> <img src="./img/game/inventory/top__border.png" alt="#" class="border__mail border__top" /> <div class="inventory-hero-skills"> <div class="inventory-hero-skill"> <img src="./img/game/inventory/icon1.png" alt="1" />Attack </div> <div class="inventory-hero-skill"> <img src="./img/game/inventory/icon2.png" alt="1" />Attack </div> <div class="inventory-hero-skill"> <img src="./img/game/inventory/icon3.png" alt="1" />Attack </div> <div class="inventory-hero-skill"> <img src="./img/game/inventory/icon5.png" alt="1" />Attack </div> </div> <div class="inventory-hero-skills"> <div class="inventory-hero-skill"> <img src="./img/game/inventory/icon5.png" alt="1" />Attack </div> <div class="inventory-hero-skill"> <img src="./img/game/inventory/icon1.png" alt="1" />Attack </div> <div class="inventory-hero-skill"> <img src="./img/game/inventory/icon1.png" alt="1" />Attack </div> <div class="inventory-hero-skill"> <img src="./img/game/inventory/icon2.png" alt="1" />Attack </div> <div class="inventory-hero-skill"> <img src="./img/game/inventory/icon3.png" alt="1" />Attack </div> <div class="inventory-hero-skill"> <img src="./img/game/inventory/icon5.png" alt="1" />Attack </div> </div> </div> </div> </div> </div> </div> </div> </div> <div class="tab"> <div class="tab__content"> <div class="challenger"> <div class="btn-icon"> History<img src="./img/icons/history.png" alt="#" /> </div> <div class="challenger__content"> <div class="challengerHeader"> <img src="./img/corner.png" alt="#" class="corner topRight" /> <img src="./img/corner.png" alt="#" class="corner topLeft" /> <div class="challengerHeader__title"> Challenger Competition </div> <div class="challengerHeader__data"> <div class="challengerHeader__challenger"> <span class="challenger-d">Challenger</span ><span>--</span> </div> <div class="challengerHeader__challenger"> <span class="challenger-d">Online Users</span ><span>3</span> </div> </div> <div class="challengerHeader__subtitle"> 6577.8887 BNX <div class="challengerHeader__l">Grand Prize Pool</div> </div> <div class="challengerHeader__img"> <img src="./img/game/challengerCompetition./img_header.png" alt="#" /> </div> </div> <div class="challenger__box"> <h1 class="challenger__title">Game Rules</h1> <div class="challenger__text"> <div class="value"> <p class="t">1. Registration Rules</p> <div class="flex"> <div class="l">1.1</div> <div class="flex-item"> All heroes can participate. In each round of the competition (every time the championship award is issued is regarded as a round), the same hero will have a limit on the number of entries. 1 time for level 1-4 heroes, one more time for level 5-12 heroes each level up.<br /> </div> </div> <div class="flex"> <div class="l">1.2</div> <div class="flex-item"> The registration fee must be paid when the hero participates. The initial amount of the registration fee is 0.1BNX, and then gradually increases. The subsequent registration fee is =0.1+2.9*(1-5000/(5000+registration sequence))^2. The registration fees of all participants will enter the prize pool.<br /> * All participants' registration fees will go into the prize pool;<br /> * Registration number shall be subject to the order of payment in the contract;<br /> </div> </div> <p class="t">2. Competition Rules:</p> <div class="flex"> <div class="l">2.1</div> <div class="flex-item"> Challenge rules<br /> The first user who signs up initially will become the master, and the users who sign up later will challenge the master one by one in the order of registration. If the challenge to the master is successful, it will take over and become the master. Continue to fight in this order. During the ongoing battle, the hero's HP cannot be restored.<br /> </div> </div> <div class="flex"> <div class="l">2.2</div> <div class="flex-item"> Points rules<br /> In the course of the battle, one point is awarded for each defeat of an opponent, and 2 points are awarded for the defeat of the battle. The accumulated points of all participating heroes at the same address are calculated. For every 1000 challenges, the points earned by participating users will increase by 10%<br /> </div> </div> <div class="flex"> <div class="l">2.3</div> <div class="flex-item"> When a hero has taken the home court of the ring for more than 30 minutes and there are no challengers, the ring match ends and rewards will be given to all participants.<br /> </div> </div> <p class="t">3. Prize Pool</p> <div class="flex"> <div class="l">3.1</div> <div class="flex-item"> The prize pool of the Challenger Competition will be distributed according to the following proportions: <br /> Prize Pool: The prize pool allocated at the end of the ring. 90% of the user registration fee will enter the prize pool. At the end of the Challenger Competition, it will be distributed according to the following proportions:<br /> Jackpot — 40%: The final championship reward. <br /> Participation prize pool — 30%: All participants will be distributed according to the proportion of participating points <br /> 20%: Enter the initial prize pool of the next round of Challenger Competition. <br /> 10%: Burn to destroy. <br /> In the very first round of the Challenger Competition, the team will inject 20,000 BNX into the prize pool as the initial prize pool.<br /> </div> </div> <div class="flex"> <div class="l">3.2</div> <div class="flex-item"> Quick dividend pool: 10% of the user registration fee enters the quick dividend pool. Every 1,000 heroes sign up, a quick dividend pool will be allocated, and the current balance of the quick dividend pool will be distributed to all users who have participated.<br /> </div> </div> <p class="t">4. Supplementary Rules:</p> <div class="flex"> <div class="l">4.1</div> <div class="flex-item"> The initial battle interval is 30s, and the countdown to wait for the challenger is 30 minutes.<br /> </div> </div> <div class="flex"> <div class="l">4.2</div> <div class="flex-item"> After the end of the Challenger Competition, the project team will confirm the results of the competition. If the competition ends normally, the competition will end according to the rules and rewards will be issued. If the abnormal end is caused by BSC network failure, malicious attacks by others, etc., the original will be retained. The result of the game and restart a countdown waiting for the challenger;<br /> </div> </div> <div class="flex"> <div class="l">4.3</div> <div class="flex-item"> According to the progress of the game, the team reserves the right to adjust the battle interval and the countdown time waiting for the challenger. During the adjustment, the community and the Announce channel will be synchronized in advance for notification.<br /> </div> </div> </div> </div> <div class="challenger__box-btn"> <button>Register</button> <button>Watch the Battle</button> </div> </div> </div> </div> </div> </div> </div> </div> </section> </main> <footer class="footer"> <div class="container"> <div class="footer__top"> <div class="header__logo"><img src="./img/logo.png" alt="" /></div> <div class="footer__media"> <div class="footer__btns"> <button class="button">Buy $BNX</button ><button class="button">Buy $BNX</button ><button class="button">Buy $BNX</button> </div> <div class="footer__socialNetwork"> <div class="footer__title">SOCIAL</div> <ul class="socialNet"> <li class="socialNet__i"> <a href="#" ><img src="./img/icons/twitter.svg" alt="" /><span >Twitter</span ></a > </li> <li class="socialNet__i"> <a href="#" ><img src="./img/icons/telegram.svg" alt="" /><span >Telegram</span ></a > </li> <li class="socialNet__i"> <a href="#" ><img src="./img/icons/medium.svg" alt="" /><span >Medium</span ></a > </li> <li class="socialNet__i"> <a href="#" ><img src="./img/icons/discord.svg" alt="" /><span >Discord</span ></a > </li> </ul> </div> <div class="footer__info"> <div class="footer__title">INFO</div> <ul class="socialNet"> <li class="socialNet__i"> <a href="#"><span>Audit Report</span></a> </li> </ul> </div> </div> </div> <div class="footer__bottom"> <span> $BNX Token Address: 0x8c851d1a123ff703bd1f9dabe631b69902df5f97 </span> <span> $Gold Token Address: 0xb3a6381070B1a15169DEA646166EC0699fDAeA79</span > <span> $Crystal Token Address: 0x6AD7e691f1d2723523e70751f82052A8A2C47726 </span> </div> </div> </footer> <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> <script src="./js/script.js"></script> </body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BimareX</title>
+    <link rel="apple-touch-icon" sizes="152x152" href="./icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png">
+    <link rel="manifest" href="./icons/site.webmanifest">
+    <link rel="mask-icon" href="./icons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="./css/normalaze.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/fonts.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-box">
+        <div class="header__wrapper">
+          <nav class="header_nav">
+            <div class="header__logo"><img src="./img/logo.png" alt="" /></div>
+            <ul class="menu">
+              <li class="menu__element"><a href="./index.html">Home</a></li>
+              <li class="menu__element menu__elementDrop is_active">
+                <div class="dropdown menu_dropdown">
+                  <button class="dropdown__button">Game</button>
+                  <ul class="dropdown__list">
+                    <a href="./game.html">
+                      <li class="dropdown-item">CyberDragon</li>
+                    </a>
+                    <a href="#"> <li class="dropdown-item">CyberChess</li> </a>
+                  </ul>
+                  <input
+                    type="text"
+                    name="select-category"
+                    value=""
+                    class="dropdown__input-hidden"
+                  />
+                </div>
+              </li>
+              <li class="menu__element"><a href="#">Market</a></li>
+              <li class="menu__element">
+                <a href="./LiquidityMining.html">Liquidity Mining</a>
+              </li>
+              <li class="menu__element"><a href="#">Game Wiki</a></li>
+              <li class="menu__element menu__elementDrop">
+                <div class="dropdown menu_dropdown">
+                  <button class="dropdown__button">Other</button>
+                  <ul class="dropdown__list">
+                    <a href="./other/dao.html">
+                      <li class="dropdown-item">DAO</li>
+                    </a>
+                    <a href="./other/whitePaper.html">
+                      <li class="dropdown-item">White Paper</li>
+                    </a>
+                  </ul>
+                  <input
+                    type="text"
+                    name="select-category"
+                    value=""
+                    class="dropdown__input-hidden"
+                  />
+                </div>
+              </li>
+              <div class="close-menu">
+                <img src="./img/icons/closeI.png" alt="Close" />
+              </div>
+            </ul>
+            <div class="header__article">
+              <button class="button">Connect Wallet</button>
+              <div class="dropdown">
+                <button class="dropdown__button inner__btn">English</button>
+                <ul class="dropdown__list">
+                  <li class="dropdown__list-item" data-value="travel">
+                    English
+                  </li>
+                  <li class="dropdown__list-item" data-value="lessons">
+                    繁體中文
+                  </li>
+                </ul>
+                <input
+                  type="text"
+                  name="select-category"
+                  value=""
+                  class="dropdown__input-hidden"
+                />
+              </div>
+            </div>
+          </nav>
+          <div class="btn-icon" id="open_menu">
+            Menu <img src="./img/icons/menuI.png" alt="#" />
+          </div>
+        </div>
+      </div>
+      <div class="bg_activeM"></div>
+    </header>
+    <main class="main">
+      <section class="tabs">
+        <div class="container">
+          <div class="tabs__header">
+            <div class="tabs__nav">
+              <div class="swiper-wrapper">
+                <div class="tabs__nav-itemDD swiper-slide">
+                  <div class="dropdown tab_dropdown">
+                    <button class="dropdown__button">Recruit Hero</button>
+                    <ul class="dropdown__list">
+                      <div class="box__list">
+                        <li class="tabs__nav-item" data-value="travel">
+                          Recruit Hero
+                        </li>
+                      </div>
+                      <div class="box__list">
+                        <li class="tabs__nav-item" data-value="lessons">
+                          New Hero Auction
+                        </li>
+                      </div>
+                    </ul>
+                    <input
+                      type="text"
+                      name="select-category"
+                      value=""
+                      class="dropdown__input-hidden"
+                    />
+                  </div>
+                </div>
+                <div class="tabs__nav-item swiper-slide">My Hero</div>
+                <div class="tabs__nav-item swiper-slide">Adventure</div>
+                <div class="tabs__nav-itemDD swiper-slide">
+                  <div class="dropdown tab_dropdown">
+                    <button class="dropdown__button">Extra Bonus</button>
+                    <ul class="dropdown__list">
+                      <div class="box__list">
+                        <li class="tabs__nav-item" data-value="travel">
+                          Gold Mining
+                        </li>
+                      </div>
+                      <div class="box__list">
+                        <li
+                          class="tabs__nav-item tabs__nav-item-active"
+                          data-value="lessons"
+                        >
+                          Hero Dividend
+                        </li>
+                      </div>
+                    </ul>
+                    <input
+                      type="text"
+                      name="select-category"
+                      value=""
+                      class="dropdown__input-hidden"
+                    />
+                  </div>
+                </div>
+                <div class="tabs__nav-item swiper-slide">Leaderboard</div>
+                <div class="tabs__nav-item swiper-slide">Treasure Chest</div>
+                <div class="tabs__nav-item swiper-slide">Inventory</div>
+                <div class="tabs__nav-item swiper-slide">
+                  Challenger Competition
+                </div>
+              </div>
+            </div>
+            <span class="tabs_nav tabs_nav__next"
+              ><img src="./img/whitePaper/backToIsActive.png" alt="}"
+            /></span>
+            <span class="tabs_nav tabs_nav__prev"
+              ><img src="./img/whitePaper/backTo.png" alt="{"
+            /></span>
+          </div>
+          <div class="tabs__content">
+            <div class="tab">
+              <div class="tab__content">
+                <div class="recruitHero">
+                  <img
+                    src="./img/game/recruitHero/bg_window.png"
+                    alt="#"
+                    class="recruitHero_bg"
+                  />
+                  <img
+                    src="./img/game/recruitHero/bg_window.png"
+                    alt="#"
+                    class="recruitHero_bg"
+                  />
+                  <div class="recruitHero__content">
+                    <div class="recruitHero__ava">
+                      <img src="./img/game/recruitHero/ava.png" alt="#" />
+                    </div>
+                    <div class="recruitHero__name">--</div>
+                    <div class="recruitHero__title">Get your hero now</div>
+                    <div class="recruitHero__btn">Authorize</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab">
+              <div class="tab__content">
+                <div class="newHeroAuction">
+                  <div class="newHeroAuction__wrapper">
+                    <div class="hero">
+                      <div class="swiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <img src="./img/slider/hero1.png" alt="hero" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./img/slider/hero2.png" alt="hero" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./img/slider/hero3.png" alt="hero" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./img/slider/hero4.png" alt="hero" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./img/slider/hero5.png" alt="hero" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./img/slider/hero6.png" alt="hero" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./img/slider/hero7.png" alt="hero" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./img/slider/hero8.png" alt="hero" />
+                          </div>
+                        </div>
+                        <div class="swiper-button-prev">
+                          <img src="./img/slider/prev.png" alt="{" />
+                        </div>
+                        <div class="swiper-button-next">
+                          <img src="./img/slider/next.png" alt="}" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="hero-info">
+                      <div class="hero-info__title">New Hero Auction</div>
+                      <div class="hero-info__warning">
+                        Auction will be opened randomly every Monday from
+                        00:00-00:00 (Local Time Zone), and the number of new
+                        heroes in each round is 0.
+                      </div>
+                      <div class="hero-info__box-I">
+                        <div class="hero-info__box-T">Bid Price</div>
+                        <div class="hero-info__box">
+                          <input
+                            type="text"
+                            class="hero-info-in_bnx"
+                            value="0"
+                          />
+                          <div class="hero-info__pI">+</div>
+                          <input
+                            type="text"
+                            class="hero-info-in_usd"
+                            value="0"
+                          />
+                        </div>
+                      </div>
+                      <div class="hero-info__prices">
+                        <div class="hero-info__price">
+                          <div>Avl.</div>
+                          <div class="hero-info__price-rt">Deposit</div>
+                        </div>
+                        <div class="hero-info__price">
+                          <div>BNX</div>
+                          <div>0</div>
+                        </div>
+                        <div class="hero-info__price">
+                          <div>BUSD</div>
+                          <div>0</div>
+                        </div>
+                      </div>
+                      <button class="hero-info__button">Bidding</button>
+                      <div class="hero-info__subwarning">
+                        Please deposit on the official page, don't directly
+                        deposit to the on-chain contract, it will not charge to
+                        your account and withdraw in the future.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="dao_status">
+                    <div class="dao_proposal">
+                      <img src="./img/dao/proposal.png" /> PROPOSAL
+                    </div>
+                    <div class="dao_status-titles">
+                      <div class="dao_status-option activeOption">
+                        Your Record
+                      </div>
+                      <div class="dao_status-option">Winning Bids</div>
+                      <div class="dao_status-option">Cancelled Bids</div>
+                      <div class="dao_status-option">Funding History</div>
+                      <div class="dao_status-option">Winning Hero</div>
+                    </div>
+                    <div class="dao_status-line"></div>
+                    <div class="dao_status-data">No data</div>
+                  </div>
+                  <div class="dao_status">
+                    <div class="dao_proposal">
+                      <img src="./img/dao/proposal.png" /> Public Info
+                    </div>
+                    <div class="dao_status-titles"></div>
+                    <div class="dao_status-line"></div>
+                    <div class="dao_status-data">No data</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab">
+              <div class="tab__content">
+                <div class="myHero">
+                  <div class="myHero__data">
+                    <div class="myHero__header">
+                      <div class="myHero__dropdown">
+                        <div class="dropdown">
+                          <button class="dropdown__button">
+                            All
+                            <img src="./img/game/myHero/dropdown.png" alt="" />
+                          </button>
+                          <ul class="dropdown__list">
+                            <li
+                              class="dropdown__list-item"
+                              data-value="lessons"
+                            >
+                              All
+                            </li>
+                            <li class="dropdown__list-item" data-value="travel">
+                              Dividend
+                            </li>
+                            <li
+                              class="dropdown__list-item"
+                              data-value="lessons"
+                            >
+                              Mining
+                            </li>
+                          </ul>
+                          <input
+                            type="text"
+                            name="select-category"
+                            value=""
+                            class="dropdown__input-hidden"
+                          />
+                        </div>
+                      </div>
+                      <div class="myHero__button">
+                        <div class="grid btn-active">
+                          <div class="btn__box">
+                            <span></span><span></span><span></span><span></span>
+                          </div>
+                        </div>
+                        <div class="lines">
+                          <div class="btn__box">
+                            <span></span><span></span><span></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="myHero__data">No data</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab">
+              <div class="tab__content">
+                <div class="history__adventure">
+                  <div class="btn-icon">
+                    History<img src="./img/icons/history.png" alt="#" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab">
+              <div class="tab__content">
+                <div class="ultraBonus">
+                  <div class="ultraBonus__wrapper">
+                    <div class="ultraBonus__article">Idle Hero</div>
+                    <div class="ultraBonus__content">
+                      <div class="item">
+                        <div class="item__title">Part-time Job</div>
+                        <div class="item__img">
+                          <img src="./img/game/extraBM/1.png" alt="#" />
+                        </div>
+                        <div class="item__reward">
+                          <div class="item__rewardImg">
+                            <img src="./img/game/extraBM/icon.png" alt="#" />
+                          </div>
+                        </div>
+                        <div class="limit">
+                          <div class="limit__header">
+                            <img
+                              src="./img/game/extraBM/limit_icon.png"
+                              alt="#"
+                            />
+                            <div class="limit__text">Lv. 1 and above</div>
+                          </div>
+                          <div class="limit__content">
+                            <img
+                              src="./img/game/extraBM/limit_img.png"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div class="item__boxBtn">
+                          <button class="item_btn">ready</button>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="item__title">Part-time Job</div>
+                        <div class="item__img">
+                          <img src="./img/game/extraBM/2.png" alt="#" />
+                        </div>
+                        <div class="item__reward">
+                          <div class="item__rewardImg">
+                            <img src="./img/game/extraBM/icon.png" alt="#" />
+                          </div>
+                        </div>
+                        <div class="limit">
+                          <div class="limit__header">
+                            <img
+                              src="./img/game/extraBM/limit_icon.png"
+                              alt="#"
+                            />
+                            <div class="limit__text">Lv. 1 and above</div>
+                          </div>
+                          <div class="limit__content">
+                            <img
+                              src="./img/game/extraBM/limit_img.png"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div class="item__boxBtn">
+                          <button class="item_btn">ready</button>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="item__title">Part-time Job</div>
+                        <div class="item__img">
+                          <img src="./img/game/extraBM/3.png" alt="#" />
+                        </div>
+                        <div class="item__reward">
+                          <div class="item__rewardImg">
+                            <img src="./img/game/extraBM/icon.png" alt="#" />
+                          </div>
+                        </div>
+                        <div class="limit">
+                          <div class="limit__header">
+                            <img
+                              src="./img/game/extraBM/limit_icon.png"
+                              alt="#"
+                            />
+                            <div class="limit__text">Lv. 1 and above</div>
+                          </div>
+                          <div class="limit__content">
+                            <img
+                              src="./img/game/extraBM/limit_img.png"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div class="item__boxBtn">
+                          <button class="item_btn">ready</button>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="item__title">Part-time Job</div>
+                        <div class="item__img">
+                          <img src="./img/game/extraBM/4.png" alt="#" />
+                        </div>
+                        <div class="item__reward">
+                          <div class="item__rewardImg">
+                            <img src="./img/game/extraBM/icon.png" alt="#" />
+                          </div>
+                        </div>
+                        <div class="limit">
+                          <div class="limit__header">
+                            <img
+                              src="./img/game/extraBM/limit_icon.png"
+                              alt="#"
+                            />
+                            <div class="limit__text">Lv. 1 and above</div>
+                          </div>
+                          <div class="limit__content">
+                            <img
+                              src="./img/game/extraBM/limit_img.png"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div class="item__boxBtn">
+                          <button class="item_btn">ready</button>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="item__title">Part-time Job</div>
+                        <div class="item__img">
+                          <img src="./img/game/extraBM/5.png" alt="#" />
+                        </div>
+                        <div class="item__reward">
+                          <div class="item__rewardImg">
+                            <img src="./img/game/extraBM/icon.png" alt="#" />
+                          </div>
+                        </div>
+                        <div class="limit">
+                          <div class="limit__header">
+                            <img
+                              src="./img/game/extraBM/limit_icon.png"
+                              alt="#"
+                            />
+                            <div class="limit__text">Lv. 1 and above</div>
+                          </div>
+                          <div class="limit__content">
+                            <img
+                              src="./img/game/extraBM/limit_img.png"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div class="item__boxBtn">
+                          <button class="item_btn">ready</button>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="item__title">Part-time Job</div>
+                        <div class="item__img">
+                          <img src="./img/game/extraBM/6.png" alt="#" />
+                        </div>
+                        <div class="item__reward">
+                          <div class="item__rewardImg">
+                            <img src="./img/game/extraBM/icon.png" alt="#" />
+                          </div>
+                        </div>
+                        <div class="limit">
+                          <div class="limit__header">
+                            <img
+                              src="./img/game/extraBM/limit_icon.png"
+                              alt="#"
+                            />
+                            <div class="limit__text">Lv. 1 and above</div>
+                          </div>
+                          <div class="limit__content">
+                            <img
+                              src="./img/game/extraBM/limit_img.png"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div class="item__boxBtn">
+                          <button class="item_btn">ready</button>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="item__title">Part-time Job</div>
+                        <div class="item__img">
+                          <img src="./img/game/extraBM/7.png" alt="#" />
+                        </div>
+                        <div class="item__reward">
+                          <div class="item__rewardImg">
+                            <img src="./img/game/extraBM/icon.png" alt="#" />
+                          </div>
+                        </div>
+                        <div class="limit">
+                          <div class="limit__header">
+                            <img
+                              src="./img/game/extraBM/limit_icon.png"
+                              alt="#"
+                            />
+                            <div class="limit__text">Lv. 1 and above</div>
+                          </div>
+                          <div class="limit__content">
+                            <img
+                              src="./img/game/extraBM/limit_img.png"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div class="item__boxBtn">
+                          <button class="item_btn">ready</button>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="item__title">Part-time Job</div>
+                        <div class="item__img">
+                          <img src="./img/game/extraBM/8.png" alt="#" />
+                        </div>
+                        <div class="item__reward">
+                          <div class="item__rewardImg">
+                            <img src="./img/game/extraBM/icon.png" alt="#" />
+                          </div>
+                        </div>
+                        <div class="limit">
+                          <div class="limit__header">
+                            <img
+                              src="./img/game/extraBM/limit_icon.png"
+                              alt="#"
+                            />
+                            <div class="limit__text">Lv. 1 and above</div>
+                          </div>
+                          <div class="limit__content">
+                            <img
+                              src="./img/game/extraBM/limit_img.png"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div class="item__boxBtn">
+                          <button class="item_btn">ready</button>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="item__title">Part-time Job</div>
+                        <div class="item__img">
+                          <img src="./img/game/extraBM/9.png" alt="#" />
+                        </div>
+                        <div class="item__reward">
+                          <div class="item__rewardImg">
+                            <img src="./img/game/extraBM/icon.png" alt="#" />
+                          </div>
+                        </div>
+                        <div class="limit">
+                          <div class="limit__header">
+                            <img
+                              src="./img/game/extraBM/limit_icon.png"
+                              alt="#"
+                            />
+                            <div class="limit__text">Lv. 1 and above</div>
+                          </div>
+                          <div class="limit__content">
+                            <img
+                              src="./img/game/extraBM/limit_img.png"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div class="item__boxBtn">
+                          <button class="item_btn">ready</button>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="item__title">Part-time Job</div>
+                        <div class="item__img">
+                          <img src="./img/game/extraBM/10.png" alt="#" />
+                        </div>
+                        <div class="item__reward">
+                          <div class="item__rewardImg">
+                            <img src="./img/game/extraBM/icon.png" alt="#" />
+                          </div>
+                        </div>
+                        <div class="limit">
+                          <div class="limit__header">
+                            <img
+                              src="./img/game/extraBM/limit_icon.png"
+                              alt="#"
+                            />
+                            <div class="limit__text">Lv. 1 and above</div>
+                          </div>
+                          <div class="limit__content">
+                            <img
+                              src="./img/game/extraBM/limit_img.png"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div class="item__boxBtn">
+                          <button class="item_btn">ready</button>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="item__title">Part-time Job</div>
+                        <div class="item__img">
+                          <img src="./img/game/extraBM/11.png" alt="#" />
+                        </div>
+                        <div class="item__reward">
+                          <div class="item__rewardImg">
+                            <img src="./img/game/extraBM/icon.png" alt="#" />
+                          </div>
+                        </div>
+                        <div class="limit">
+                          <div class="limit__header">
+                            <img
+                              src="./img/game/extraBM/limit_icon.png"
+                              alt="#"
+                            />
+                            <div class="limit__text">Lv. 1 and above</div>
+                          </div>
+                          <div class="limit__content">
+                            <img
+                              src="./img/game/extraBM/limit_img.png"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div class="item__boxBtn">
+                          <button class="item_btn">ready</button>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="item__title">Part-time Job</div>
+                        <div class="item__img">
+                          <img src="./img/game/extraBM/12.png" alt="#" />
+                        </div>
+                        <div class="item__reward">
+                          <div class="item__rewardImg">
+                            <img src="./img/game/extraBM/icon.png" alt="#" />
+                          </div>
+                        </div>
+                        <div class="limit">
+                          <div class="limit__header">
+                            <img
+                              src="./img/game/extraBM/limit_icon.png"
+                              alt="#"
+                            />
+                            <div class="limit__text">Lv. 1 and above</div>
+                          </div>
+                          <div class="limit__content">
+                            <img
+                              src="./img/game/extraBM/limit_img.png"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div class="item__boxBtn">
+                          <button class="item_btn">ready</button>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="item__title">Part-time Job</div>
+                        <div class="item__img">
+                          <img src="./img/game/extraBM/13.png" alt="#" />
+                        </div>
+                        <div class="item__reward">
+                          <div class="item__rewardImg">
+                            <img src="./img/game/extraBM/icon.png" alt="#" />
+                          </div>
+                        </div>
+                        <div class="limit">
+                          <div class="limit__header">
+                            <img
+                              src="./img/game/extraBM/limit_icon.png"
+                              alt="#"
+                            />
+                            <div class="limit__text">Lv. 1 and above</div>
+                          </div>
+                          <div class="limit__content">
+                            <img
+                              src="./img/game/extraBM/limit_img.png"
+                              alt=""
+                            />
+                          </div>
+                        </div>
+                        <div class="item__boxBtn">
+                          <button class="item_btn">ready</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab tab-active">
+              <div class="tab__content">
+                <div class="heroDividend">
+                  <div class="heroDividend__content">
+                    <div class="heroDividend__title">
+                      Accumulated numbers of BNX dividends：0 BNX
+                    </div>
+                    <div class="heroDividend__wrapper-c">
+                      <div class="heroDividend-box">
+                        <div class="heroDividend-box__title">Claim Rewards</div>
+                        <img
+                          src="./img/corner.png"
+                          alt="#"
+                          class="heroDividend-box__corner"
+                        />
+                        <img
+                          src="./img/corner.png"
+                          alt="#"
+                          class="heroDividend-box__corner"
+                        />
+                        <img
+                          src="./img/corner.png"
+                          alt="#"
+                          class="heroDividend-box__corner"
+                        />
+                        <img
+                          src="./img/corner.png"
+                          alt="#"
+                          class="heroDividend-box__corner"
+                        />
+                        <div class="heroDividend-box__circle">
+                          <img src="./img/game/circle__store.png" alt="#" />
+                        </div>
+                        <div class="heroDividend-box__data">
+                          <div class="heroDividend-box__text">
+                            <div class="heroDividend-box__textL">
+                              <div class="heroDividend-box__textT">
+                                Stake NFT
+                              </div>
+                              0 NFT
+                            </div>
+                            <div class="heroDividend-box__textR">
+                              <div class="heroDividend-box__textT">
+                                The Total Weight
+                              </div>
+                              0
+                            </div>
+                          </div>
+                        </div>
+                        <button class="heroDividend-box__button">
+                          Claim Reward
+                        </button>
+                      </div>
+                      <div class="heroDividend-box">
+                        <div class="heroDividend-box__title">Claim Rewards</div>
+                        <img
+                          src="./img/corner.png"
+                          alt="#"
+                          class="heroDividend-box__corner"
+                        />
+                        <img
+                          src="./img/corner.png"
+                          alt="#"
+                          class="heroDividend-box__corner"
+                        />
+                        <img
+                          src="./img/corner.png"
+                          alt="#"
+                          class="heroDividend-box__corner"
+                        />
+                        <img
+                          src="./img/corner.png"
+                          alt="#"
+                          class="heroDividend-box__corner"
+                        />
+                        <div class="heroDividend-box__circle">
+                          <img src="./img/game/circle__store.png" alt="#" />
+                        </div>
+                        <div class="heroDividend-box__data">
+                          <div class="heroDividend-box__text">
+                            <div class="heroDividend-box__textL">
+                              <div class="heroDividend-box__textT">
+                                Claimable (BNX)
+                              </div>
+                              0.0000
+                            </div>
+                            <div class="heroDividend-box__textR">
+                              <div class="heroDividend-box__textT">
+                                Claimed (BNX)
+                              </div>
+                              0.0000
+                            </div>
+                          </div>
+                        </div>
+                        <button class="heroDividend-box__button">
+                          Claim Reward
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="heroDividend__footer">
+                    <div class="dao_status">
+                      <div class="dao_status__wrapper">
+                        <div class="dao_proposal">
+                          <img src="./img/dao/proposal.png" /> NFT Staking
+                          Record
+                        </div>
+                        <div class="dao_subproposal">
+                          <div class="dao_proposal">Switch Data Source</div>
+                          <div class="dao_proposal">My Weight：0</div>
+                        </div>
+                      </div>
+                      <div class="dao_status-titles"></div>
+                      <div class="dao_status-line"></div>
+                      >
+                    </div>
+                    <div class="heroDividend__footer-d">
+                      No position for now
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab">
+              <div class="tab__content">
+                <div class="leaderboard">
+                  <div class="leaderboard__wrapper">
+                    <div class="leaderboard__top">
+                      <img
+                        src="./img/game/leaderboard/border_top.png"
+                        alt="#"
+                        class="border__leaderboard"
+                      /><img
+                        src="./img/game/leaderboard/border__bottom.png"
+                        alt="#"
+                        class="border__leaderboard"
+                      />
+                      <div class="heroItem">
+                        <div class="heroItem__promo">
+                          <div class="heroItem__place">
+                            <img src="./img/game/leaderboard/1.png" alt="1" />
+                          </div>
+                          <div class="heroItem__range">
+                            <p>Mage</p>
+                            <p>Lv.9</p>
+                          </div>
+                        </div>
+                        <div class="heroItem__info">
+                          <div class="heroItem__name">
+                            <span class="heroItem__sutitle"> Name </span>
+                            <span class="heroItem__name">chief1</span>
+                          </div>
+                          <div class="heroItem__total">
+                            <span class="heroItem__sutitle">
+                              Total Attribute </span
+                            ><span class="heroItem__cont">452</span>
+                          </div>
+                          <div class="heroItem__score">
+                            <span class="heroItem__sutitle"> Score </span
+                            ><span class="heroItem__cont">734</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="heroItem">
+                        <div class="heroItem__promo">
+                          <div class="heroItem__place">
+                            <img src="./img/game/leaderboard/2.png" alt="2" />
+                          </div>
+                          <div class="heroItem__range">
+                            <p>Mage</p>
+                            <p>Lv.9</p>
+                          </div>
+                        </div>
+                        <div class="heroItem__info">
+                          <div class="heroItem__name">
+                            <span class="heroItem__sutitle"> Name </span>
+                            <span class="heroItem__name">chief1</span>
+                          </div>
+                          <div class="heroItem__total">
+                            <span class="heroItem__sutitle">
+                              Total Attribute </span
+                            ><span class="heroItem__cont">452</span>
+                          </div>
+                          <div class="heroItem__score">
+                            <span class="heroItem__sutitle"> Score </span
+                            ><span class="heroItem__cont">734</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="heroItem">
+                        <div class="heroItem__promo">
+                          <div class="heroItem__place">
+                            <img src="./img/game/leaderboard/3.png" alt="3" />
+                          </div>
+                          <div class="heroItem__range">
+                            <p>Mage</p>
+                            <p>Lv.9</p>
+                          </div>
+                        </div>
+                        <div class="heroItem__info">
+                          <div class="heroItem__name">
+                            <span class="heroItem__sutitle"> Name </span>
+                            <span class="heroItem__name">chief1</span>
+                          </div>
+                          <div class="heroItem__total">
+                            <span class="heroItem__sutitle">
+                              Total Attribute </span
+                            ><span class="heroItem__cont">452</span>
+                          </div>
+                          <div class="heroItem__score">
+                            <span class="heroItem__sutitle"> Score </span
+                            ><span class="heroItem__cont">734</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="leaderboard__content">
+                      <div class="heroItem">
+                        <div class="heroItem__promo">
+                          <div class="heroItem__place">1</div>
+                          <div class="heroItem__range">
+                            <p>Mage</p>
+                            <p>Lv.9</p>
+                          </div>
+                        </div>
+                        <div class="heroItem__info">
+                          <div class="heroItem__name">
+                            <span class="heroItem__sutitle"> Name </span>
+                            <span class="heroItem__name">chief1</span>
+                          </div>
+                          <div class="heroItem__total">
+                            <span class="heroItem__sutitle">
+                              Total Attribute </span
+                            ><span class="heroItem__cont">452</span>
+                          </div>
+                          <div class="heroItem__score">
+                            <span class="heroItem__sutitle"> Score </span
+                            ><span class="heroItem__cont">734</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="heroItem">
+                        <div class="heroItem__promo">
+                          <div class="heroItem__place">1</div>
+                          <div class="heroItem__range">
+                            <p>Mage</p>
+                            <p>Lv.9</p>
+                          </div>
+                        </div>
+                        <div class="heroItem__info">
+                          <div class="heroItem__name">
+                            <span class="heroItem__sutitle"> Name </span>
+                            <span class="heroItem__name">chief1</span>
+                          </div>
+                          <div class="heroItem__total">
+                            <span class="heroItem__sutitle">
+                              Total Attribute </span
+                            ><span class="heroItem__cont">452</span>
+                          </div>
+                          <div class="heroItem__score">
+                            <span class="heroItem__sutitle"> Score </span
+                            ><span class="heroItem__cont">734</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="heroItem">
+                        <div class="heroItem__promo">
+                          <div class="heroItem__place">1</div>
+                          <div class="heroItem__range">
+                            <p>Mage</p>
+                            <p>Lv.9</p>
+                          </div>
+                        </div>
+                        <div class="heroItem__info">
+                          <div class="heroItem__name">
+                            <span class="heroItem__sutitle"> Name </span>
+                            <span class="heroItem__name">chief1</span>
+                          </div>
+                          <div class="heroItem__total">
+                            <span class="heroItem__sutitle">
+                              Total Attribute </span
+                            ><span class="heroItem__cont">452</span>
+                          </div>
+                          <div class="heroItem__score">
+                            <span class="heroItem__sutitle"> Score </span
+                            ><span class="heroItem__cont">734</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="heroItem">
+                        <div class="heroItem__promo">
+                          <div class="heroItem__place">1</div>
+                          <div class="heroItem__range">
+                            <p>Mage</p>
+                            <p>Lv.9</p>
+                          </div>
+                        </div>
+                        <div class="heroItem__info">
+                          <div class="heroItem__name">
+                            <span class="heroItem__sutitle"> Name </span>
+                            <span class="heroItem__name">chief1</span>
+                          </div>
+                          <div class="heroItem__total">
+                            <span class="heroItem__sutitle">
+                              Total Attribute </span
+                            ><span class="heroItem__cont">452</span>
+                          </div>
+                          <div class="heroItem__score">
+                            <span class="heroItem__sutitle"> Score </span
+                            ><span class="heroItem__cont">734</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="heroItem">
+                        <div class="heroItem__promo">
+                          <div class="heroItem__place">1</div>
+                          <div class="heroItem__range">
+                            <p>Mage</p>
+                            <p>Lv.9</p>
+                          </div>
+                        </div>
+                        <div class="heroItem__info">
+                          <div class="heroItem__name">
+                            <span class="heroItem__sutitle"> Name </span>
+                            <span class="heroItem__name">chief1</span>
+                          </div>
+                          <div class="heroItem__total">
+                            <span class="heroItem__sutitle">
+                              Total Attribute </span
+                            ><span class="heroItem__cont">452</span>
+                          </div>
+                          <div class="heroItem__score">
+                            <span class="heroItem__sutitle"> Score </span
+                            ><span class="heroItem__cont">734</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="heroItem">
+                        <div class="heroItem__promo">
+                          <div class="heroItem__place">1</div>
+                          <div class="heroItem__range">
+                            <p>Mage</p>
+                            <p>Lv.9</p>
+                          </div>
+                        </div>
+                        <div class="heroItem__info">
+                          <div class="heroItem__name">
+                            <span class="heroItem__sutitle"> Name </span>
+                            <span class="heroItem__name">chief1</span>
+                          </div>
+                          <div class="heroItem__total">
+                            <span class="heroItem__sutitle">
+                              Total Attribute </span
+                            ><span class="heroItem__cont">452</span>
+                          </div>
+                          <div class="heroItem__score">
+                            <span class="heroItem__sutitle"> Score </span
+                            ><span class="heroItem__cont">734</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="heroItem">
+                        <div class="heroItem__promo">
+                          <div class="heroItem__place">1</div>
+                          <div class="heroItem__range">
+                            <p>Mage</p>
+                            <p>Lv.9</p>
+                          </div>
+                        </div>
+                        <div class="heroItem__info">
+                          <div class="heroItem__name">
+                            <span class="heroItem__sutitle"> Name </span>
+                            <span class="heroItem__name">chief1</span>
+                          </div>
+                          <div class="heroItem__total">
+                            <span class="heroItem__sutitle">
+                              Total Attribute </span
+                            ><span class="heroItem__cont">452</span>
+                          </div>
+                          <div class="heroItem__score">
+                            <span class="heroItem__sutitle"> Score </span
+                            ><span class="heroItem__cont">734</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="heroItem">
+                        <div class="heroItem__promo">
+                          <div class="heroItem__place">1</div>
+                          <div class="heroItem__range">
+                            <p>Mage</p>
+                            <p>Lv.9</p>
+                          </div>
+                        </div>
+                        <div class="heroItem__info">
+                          <div class="heroItem__name">
+                            <span class="heroItem__sutitle"> Name </span>
+                            <span class="heroItem__name">chief1</span>
+                          </div>
+                          <div class="heroItem__total">
+                            <span class="heroItem__sutitle">
+                              Total Attribute </span
+                            ><span class="heroItem__cont">452</span>
+                          </div>
+                          <div class="heroItem__score">
+                            <span class="heroItem__sutitle"> Score </span
+                            ><span class="heroItem__cont">734</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab">
+              <div class="tab__content">
+                <div class="history__TreasureChest">
+                  <div class="btn-icon">
+                    History<img src="./img/icons/history.png" alt="#" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab">
+              <div class="tab__content">
+                <div class="inventory">
+                  <div class="inventory__wrapper">
+                    <div class="inventory-box">
+                      <div class="inventory__title">Inventory</div>
+                      <div class="inventory-box__text">All</div>
+                    </div>
+                    <div class="inventory-hero">
+                      <div class="inventory__title">Hero</div>
+                      <div class="inventory-hero__header">
+                        <button class="inventory-hero__header-btn">
+                          <span> Select you Hero</span>
+                        </button>
+                      </div>
+                      <div class="inventory-hero__store">
+                        <div class="inventory-hero__store-i">
+                          <img src="./img/game/inventory/iconF1.png" alt="#" />
+                        </div>
+                        <div class="inventory-hero__store-i">
+                          <img src="./img/game/inventory/iconF2.png" alt="#" />
+                        </div>
+                        <div class="inventory-hero__store-i">
+                          <img src="./img/game/inventory/iconF3.png" alt="#" />
+                        </div>
+                        <div class="inventory-hero__store-i">
+                          <img src="./img/game/inventory/iconF4.png" alt="#" />
+                        </div>
+                        <div class="inventory-hero__store-i">
+                          <img src="./img/game/inventory/iconF5.png" alt="#" />
+                        </div>
+                        <div class="inventory-hero__store-i">
+                          <img src="./img/game/inventory/iconF6.png" alt="#" />
+                        </div>
+                        <div class="inventory-hero__store-i">
+                          <img src="./img/game/inventory/iconF7.png" alt="#" />
+                        </div>
+                        <div class="inventory-hero__store-i">
+                          <img src="./img/game/inventory/iconF8.png" alt="#" />
+                        </div>
+                        <div class="inventory-hero__store-i">
+                          <img src="./img/game/inventory/iconF9.png" alt="#" />
+                        </div>
+                        <div class="inventory-hero__store-i">
+                          <img src="./img/game/inventory/iconF10.png" alt="#" />
+                        </div>
+                      </div>
+                      <div class="inventory-hero__footer">
+                        <div class="inventory-hero__footer-title">Score: 0</div>
+                        <div class="inventory-hero-cont">
+                          <img
+                            src="./img/game/inventory/corner.png"
+                            alt="#"
+                            class="corner"
+                          /><img
+                            src="./img/game/inventory/corner.png"
+                            alt="#"
+                            class="corner"
+                          /><img
+                            src="./img/game/inventory/corner.png"
+                            alt="#"
+                            class="corner"
+                          /><img
+                            src="./img/game/inventory/corner.png"
+                            alt="#"
+                            class="corner"
+                          />
+                          <img
+                            src="./img/game/inventory/bottom_border.png"
+                            alt="#"
+                            class="border__mail border__bottom"
+                          />
+                          <img
+                            src="./img/game/inventory/top__border.png"
+                            alt="#"
+                            class="border__mail border__top"
+                          />
+                          <div class="inventory-hero-skills">
+                            <div class="inventory-hero-skill">
+                              <img
+                                src="./img/game/inventory/icon1.png"
+                                alt="1"
+                              />Attack
+                            </div>
+                            <div class="inventory-hero-skill">
+                              <img
+                                src="./img/game/inventory/icon2.png"
+                                alt="1"
+                              />Attack
+                            </div>
+                            <div class="inventory-hero-skill">
+                              <img
+                                src="./img/game/inventory/icon3.png"
+                                alt="1"
+                              />Attack
+                            </div>
+                            <div class="inventory-hero-skill">
+                              <img
+                                src="./img/game/inventory/icon5.png"
+                                alt="1"
+                              />Attack
+                            </div>
+                          </div>
+                          <div class="inventory-hero-skills">
+                            <div class="inventory-hero-skill">
+                              <img
+                                src="./img/game/inventory/icon5.png"
+                                alt="1"
+                              />Attack
+                            </div>
+                            <div class="inventory-hero-skill">
+                              <img
+                                src="./img/game/inventory/icon1.png"
+                                alt="1"
+                              />Attack
+                            </div>
+                            <div class="inventory-hero-skill">
+                              <img
+                                src="./img/game/inventory/icon1.png"
+                                alt="1"
+                              />Attack
+                            </div>
+                            <div class="inventory-hero-skill">
+                              <img
+                                src="./img/game/inventory/icon2.png"
+                                alt="1"
+                              />Attack
+                            </div>
+                            <div class="inventory-hero-skill">
+                              <img
+                                src="./img/game/inventory/icon3.png"
+                                alt="1"
+                              />Attack
+                            </div>
+                            <div class="inventory-hero-skill">
+                              <img
+                                src="./img/game/inventory/icon5.png"
+                                alt="1"
+                              />Attack
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab">
+              <div class="tab__content">
+                <div class="challenger">
+                  <div class="btn-icon">
+                    History<img src="./img/icons/history.png" alt="#" />
+                  </div>
+                  <div class="challenger__content">
+                    <div class="challengerHeader">
+                      <img
+                        src="./img/corner.png"
+                        alt="#"
+                        class="corner topRight"
+                      />
+                      <img
+                        src="./img/corner.png"
+                        alt="#"
+                        class="corner topLeft"
+                      />
+                      <div class="challengerHeader__title">
+                        Challenger Competition
+                      </div>
+                      <div class="challengerHeader__data">
+                        <div class="challengerHeader__challenger">
+                          <span class="challenger-d">Challenger</span
+                          ><span>--</span>
+                        </div>
+                        <div class="challengerHeader__challenger">
+                          <span class="challenger-d">Online Users</span
+                          ><span>3</span>
+                        </div>
+                      </div>
+                      <div class="challengerHeader__subtitle">
+                        6577.8887 BNX
+                        <div class="challengerHeader__l">Grand Prize Pool</div>
+                      </div>
+                      <div class="challengerHeader__img">
+                        <img
+                          src="./img/game/challengerCompetition./img_header.png"
+                          alt="#"
+                        />
+                      </div>
+                    </div>
+                    <div class="challenger__box">
+                      <h1 class="challenger__title">Game Rules</h1>
+                      <div class="challenger__text">
+                        <div class="value">
+                          <p class="t">1. Registration Rules</p>
+                          <div class="flex">
+                            <div class="l">1.1</div>
+                            <div class="flex-item">
+                              All heroes can participate. In each round of the
+                              competition (every time the championship award is
+                              issued is regarded as a round), the same hero will
+                              have a limit on the number of entries. 1 time for
+                              level 1-4 heroes, one more time for level 5-12
+                              heroes each level up.<br />
+                            </div>
+                          </div>
+                          <div class="flex">
+                            <div class="l">1.2</div>
+                            <div class="flex-item">
+                              The registration fee must be paid when the hero
+                              participates. The initial amount of the
+                              registration fee is 0.1BNX, and then gradually
+                              increases. The subsequent registration fee is
+                              =0.1+2.9*(1-5000/(5000+registration sequence))^2.
+                              The registration fees of all participants will
+                              enter the prize pool.<br />
+                              * All participants' registration fees will go into
+                              the prize pool;<br />
+                              * Registration number shall be subject to the
+                              order of payment in the contract;<br />
+                            </div>
+                          </div>
+                          <p class="t">2. Competition Rules:</p>
+                          <div class="flex">
+                            <div class="l">2.1</div>
+                            <div class="flex-item">
+                              Challenge rules<br />
+                              The first user who signs up initially will become
+                              the master, and the users who sign up later will
+                              challenge the master one by one in the order of
+                              registration. If the challenge to the master is
+                              successful, it will take over and become the
+                              master. Continue to fight in this order. During
+                              the ongoing battle, the hero's HP cannot be
+                              restored.<br />
+                            </div>
+                          </div>
+                          <div class="flex">
+                            <div class="l">2.2</div>
+                            <div class="flex-item">
+                              Points rules<br />
+                              In the course of the battle, one point is awarded
+                              for each defeat of an opponent, and 2 points are
+                              awarded for the defeat of the battle. The
+                              accumulated points of all participating heroes at
+                              the same address are calculated. For every 1000
+                              challenges, the points earned by participating
+                              users will increase by 10%<br />
+                            </div>
+                          </div>
+                          <div class="flex">
+                            <div class="l">2.3</div>
+                            <div class="flex-item">
+                              When a hero has taken the home court of the ring
+                              for more than 30 minutes and there are no
+                              challengers, the ring match ends and rewards will
+                              be given to all participants.<br />
+                            </div>
+                          </div>
+                          <p class="t">3. Prize Pool</p>
+                          <div class="flex">
+                            <div class="l">3.1</div>
+                            <div class="flex-item">
+                              The prize pool of the Challenger Competition will
+                              be distributed according to the following
+                              proportions: <br />
+                              Prize Pool: The prize pool allocated at the end of
+                              the ring. 90% of the user registration fee will
+                              enter the prize pool. At the end of the Challenger
+                              Competition, it will be distributed according to
+                              the following proportions:<br />
+                              Jackpot — 40%: The final championship reward.
+                              <br />
+                              Participation prize pool — 30%: All participants
+                              will be distributed according to the proportion of
+                              participating points <br />
+                              20%: Enter the initial prize pool of the next
+                              round of Challenger Competition. <br />
+                              10%: Burn to destroy. <br />
+                              In the very first round of the Challenger
+                              Competition, the team will inject 20,000 BNX into
+                              the prize pool as the initial prize pool.<br />
+                            </div>
+                          </div>
+                          <div class="flex">
+                            <div class="l">3.2</div>
+                            <div class="flex-item">
+                              Quick dividend pool: 10% of the user registration
+                              fee enters the quick dividend pool. Every 1,000
+                              heroes sign up, a quick dividend pool will be
+                              allocated, and the current balance of the quick
+                              dividend pool will be distributed to all users who
+                              have participated.<br />
+                            </div>
+                          </div>
+                          <p class="t">4. Supplementary Rules:</p>
+                          <div class="flex">
+                            <div class="l">4.1</div>
+                            <div class="flex-item">
+                              The initial battle interval is 30s, and the
+                              countdown to wait for the challenger is 30
+                              minutes.<br />
+                            </div>
+                          </div>
+                          <div class="flex">
+                            <div class="l">4.2</div>
+                            <div class="flex-item">
+                              After the end of the Challenger Competition, the
+                              project team will confirm the results of the
+                              competition. If the competition ends normally, the
+                              competition will end according to the rules and
+                              rewards will be issued. If the abnormal end is
+                              caused by BSC network failure, malicious attacks
+                              by others, etc., the original will be retained.
+                              The result of the game and restart a countdown
+                              waiting for the challenger;<br />
+                            </div>
+                          </div>
+                          <div class="flex">
+                            <div class="l">4.3</div>
+                            <div class="flex-item">
+                              According to the progress of the game, the team
+                              reserves the right to adjust the battle interval
+                              and the countdown time waiting for the challenger.
+                              During the adjustment, the community and the
+                              Announce channel will be synchronized in advance
+                              for notification.<br />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="challenger__box-btn">
+                        <button>Register</button>
+                        <button>Watch the Battle</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__top">
+          <div class="header__logo"><img src="./img/logo.png" alt="" /></div>
+          <div class="footer__media">
+            <div class="footer__btns">
+              <button class="button">Buy $BNX</button
+              ><button class="button">Buy $BNX</button
+              ><button class="button">Buy $BNX</button>
+            </div>
+            <div class="footer__socialNetwork">
+              <div class="footer__title">SOCIAL</div>
+              <ul class="socialNet">
+                <li class="socialNet__i">
+                  <a href="#"
+                    ><img src="./img/icons/twitter.svg" alt="" /><span
+                      >Twitter</span
+                    ></a
+                  >
+                </li>
+                <li class="socialNet__i">
+                  <a href="#"
+                    ><img src="./img/icons/telegram.svg" alt="" /><span
+                      >Telegram</span
+                    ></a
+                  >
+                </li>
+                <li class="socialNet__i">
+                  <a href="#"
+                    ><img src="./img/icons/medium.svg" alt="" /><span
+                      >Medium</span
+                    ></a
+                  >
+                </li>
+                <li class="socialNet__i">
+                  <a href="#"
+                    ><img src="./img/icons/discord.svg" alt="" /><span
+                      >Discord</span
+                    ></a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="footer__info">
+              <div class="footer__title">INFO</div>
+              <ul class="socialNet">
+                <li class="socialNet__i">
+                  <a href="#"><span>Audit Report</span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <span>
+            $BNX Token Address: 0x8c851d1a123ff703bd1f9dabe631b69902df5f97
+          </span>
+          <span>
+            $Gold Token Address:
+            0xb3a6381070B1a15169DEA646166EC0699fDAeA79</span
+          >
+          <span>
+            $Crystal Token Address: 0x6AD7e691f1d2723523e70751f82052A8A2C47726
+          </span>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
